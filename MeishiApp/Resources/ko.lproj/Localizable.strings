@@ -302,3 +302,37 @@
 "llm.apiKey.delete" = "API 키 삭제";
 "llm.apiKey.invalid" = "API 키가 유효하지 않습니다";
 "llm.error.imageNotSupported" = "선택한 제공업체는 이미지 입력을 지원하지 않습니다";
+
+// MARK: - Import
+"import.title" = "데이터 가져오기";
+"import.selectFormat" = "파일 형식 선택";
+"import.csv" = "CSV 형식";
+"import.csv.description" = "쉼표로 구분된 텍스트 파일";
+"import.vcard" = "vCard 형식";
+"import.vcard.description" = "표준 연락처 형식(.vcf)";
+"import.preview.title" = "미리보기";
+"import.preview.found %lld" = "%lld개 데이터 발견";
+"import.preview.duplicates %lld" = "그 중 %lld개 중복";
+"import.preview.textOnly" = "텍스트 정보만 가져옵니다.";
+"import.preview.entries" = "가져올 데이터";
+"import.preview.andMore %lld" = "외 %lld개...";
+"import.duplicateHandling" = "중복 데이터 처리";
+"import.duplicateHandling.skip" = "건너뛰기";
+"import.duplicateHandling.addCard" = "명함으로 추가";
+"import.duplicate" = "중복";
+"import.execute" = "가져오기 시작";
+"import.processing" = "가져오는 중...";
+"import.result.title" = "가져오기 완료";
+"import.result.imported %lld" = "%lld개 가져옴";
+"import.result.duplicates %lld" = "%lld개 중복 감지";
+"import.result.skipped %lld" = "%lld개 건너뜀";
+"import.result.errors %lld" = "%lld개 실패";
+"import.result.errorDetails" = "오류 상세";
+"import.error.invalidFormat" = "잘못된 파일 형식";
+"import.error.noData" = "파일에 데이터가 없습니다";
+"import.error.readFailed" = "파일 읽기 실패";
+
+// MARK: - Settings Data Management
+"settings.dataManagement" = "데이터 관리";
+"settings.import" = "데이터 가져오기";
+"settings.import.description" = "CSV 또는 vCard 파일에서 가져오기";

@@ -304,3 +304,39 @@
 "llm.apiKey.delete" = "APIキーを削除";
 "llm.apiKey.invalid" = "APIキーが無効です";
 "llm.error.imageNotSupported" = "選択中のプロバイダーは画像入力に対応していません";
+
+// MARK: - Import
+"import.title" = "データをインポート";
+"import.selectFormat" = "ファイル形式を選択";
+"import.csv" = "CSV形式";
+"import.csv.description" = "カンマ区切りのテキストファイル";
+"import.vcard" = "vCard形式";
+"import.vcard.description" = "連絡先の標準フォーマット（.vcf）";
+"import.selectFile" = "ファイルを選択";
+"import.preview.title" = "インポートのプレビュー";
+"import.preview.found %lld" = "%lld件のデータが見つかりました";
+"import.preview.duplicates %lld" = "うち%lld件が既存データと重複しています";
+"import.preview.textOnly" = "名刺画像や出会いの記録はインポートされません。テキスト情報のみです。";
+"import.preview.entries" = "インポート対象";
+"import.preview.andMore %lld" = "他%lld件...";
+"import.duplicate" = "重複";
+"import.duplicateHandling" = "重複データの処理";
+"import.duplicateHandling.skip" = "スキップする";
+"import.duplicateHandling.addCard" = "名刺として追加する";
+"import.execute" = "インポート実行";
+"import.processing" = "インポート中...";
+"import.result.title" = "インポート完了";
+"import.result.imported %lld" = "%lld件をインポートしました";
+"import.result.skipped %lld" = "%lld件はスキップしました";
+"import.result.duplicates %lld" = "%lld件は重複のためスキップしました";
+"import.result.errors %lld" = "%lld件でエラーが発生しました";
+"import.result.errorDetails" = "エラー詳細";
+"import.error.invalidFormat" = "ファイル形式が正しくありません";
+"import.error.noData" = "インポート可能なデータが見つかりませんでした";
+"import.error.headerNotFound" = "CSVのヘッダーを認識できませんでした";
+"import.error.fileAccessDenied" = "ファイルにアクセスできませんでした";
+
+// MARK: - Settings Data Management
+"settings.dataManagement" = "データ管理";
+"settings.import" = "データをインポート";
+"settings.export" = "エクスポート";

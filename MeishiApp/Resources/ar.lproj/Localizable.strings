@@ -304,3 +304,39 @@
 "llm.apiKey.delete" = "حذف مفتاح API";
 "llm.apiKey.invalid" = "مفتاح API غير صالح";
 "llm.error.imageNotSupported" = "المزود المحدد لا يدعم إدخال الصور";
+
+// MARK: - Import
+"import.title" = "استيراد البيانات";
+"import.selectFormat" = "اختر تنسيق الملف";
+"import.csv" = "تنسيق CSV";
+"import.csv.description" = "ملف نصي مفصول بفواصل";
+"import.vcard" = "تنسيق vCard";
+"import.vcard.description" = "تنسيق جهات الاتصال القياسي (.vcf)";
+"import.selectFile" = "اختر ملف";
+"import.preview.title" = "معاينة الاستيراد";
+"import.preview.found %lld" = "تم العثور على %lld إدخال";
+"import.preview.duplicates %lld" = "%lld إدخال مطابق للبيانات الموجودة";
+"import.preview.textOnly" = "لن يتم استيراد صور البطاقات وسجلات اللقاءات. المعلومات النصية فقط.";
+"import.preview.entries" = "الإدخالات للاستيراد";
+"import.preview.andMore %lld" = "و %lld أخرى...";
+"import.duplicate" = "مكرر";
+"import.duplicateHandling" = "معالجة التكرارات";
+"import.duplicateHandling.skip" = "تخطي";
+"import.duplicateHandling.addCard" = "إضافة كبطاقة جديدة";
+"import.execute" = "استيراد";
+"import.processing" = "جارٍ الاستيراد...";
+"import.result.title" = "اكتمل الاستيراد";
+"import.result.imported %lld" = "تم استيراد %lld إدخال";
+"import.result.skipped %lld" = "تم تخطي %lld إدخال";
+"import.result.duplicates %lld" = "تم تخطي %lld إدخال بسبب التكرار";
+"import.result.errors %lld" = "حدثت %lld أخطاء";
+"import.result.errorDetails" = "تفاصيل الأخطاء";
+"import.error.invalidFormat" = "تنسيق الملف غير صالح";
+"import.error.noData" = "لم يتم العثور على بيانات قابلة للاستيراد";
+"import.error.headerNotFound" = "تعذر التعرف على رؤوس CSV";
+"import.error.fileAccessDenied" = "تعذر الوصول إلى الملف";
+
+// MARK: - Settings Data Management
+"settings.dataManagement" = "إدارة البيانات";
+"settings.import" = "استيراد البيانات";
+"settings.export" = "تصدير";

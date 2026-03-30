@@ -304,3 +304,39 @@
 "llm.apiKey.delete" = "Elimina chiave API";
 "llm.apiKey.invalid" = "Chiave API non valida";
 "llm.error.imageNotSupported" = "Il fornitore selezionato non supporta l'input di immagini";
+
+// MARK: - Import
+"import.title" = "Importa dati";
+"import.selectFormat" = "Seleziona formato file";
+"import.csv" = "Formato CSV";
+"import.csv.description" = "File di testo separato da virgole";
+"import.vcard" = "Formato vCard";
+"import.vcard.description" = "Formato contatto standard (.vcf)";
+"import.selectFile" = "Seleziona file";
+"import.preview.title" = "Anteprima importazione";
+"import.preview.found %lld" = "%lld voci trovate";
+"import.preview.duplicates %lld" = "%lld voci corrispondono a dati esistenti";
+"import.preview.textOnly" = "Le immagini dei biglietti e i registri degli incontri non verranno importati. Solo informazioni testuali.";
+"import.preview.entries" = "Voci da importare";
+"import.preview.andMore %lld" = "e altre %lld...";
+"import.duplicate" = "Duplicato";
+"import.duplicateHandling" = "Gestione duplicati";
+"import.duplicateHandling.skip" = "Salta";
+"import.duplicateHandling.addCard" = "Aggiungi come nuovo biglietto";
+"import.execute" = "Importa";
+"import.processing" = "Importazione...";
+"import.result.title" = "Importazione completata";
+"import.result.imported %lld" = "%lld voci importate";
+"import.result.skipped %lld" = "%lld voci saltate";
+"import.result.duplicates %lld" = "%lld voci saltate perché duplicate";
+"import.result.errors %lld" = "%lld errori verificati";
+"import.result.errorDetails" = "Dettagli errori";
+"import.error.invalidFormat" = "Formato file non valido";
+"import.error.noData" = "Nessun dato importabile trovato";
+"import.error.headerNotFound" = "Intestazioni CSV non riconosciute";
+"import.error.fileAccessDenied" = "Impossibile accedere al file";
+
+// MARK: - Settings Data Management
+"settings.dataManagement" = "Gestione dati";
+"settings.import" = "Importa dati";
+"settings.export" = "Esporta";

@@ -304,3 +304,39 @@
 "llm.apiKey.delete" = "Eliminar clave API";
 "llm.apiKey.invalid" = "Clave API no válida";
 "llm.error.imageNotSupported" = "El proveedor seleccionado no admite entrada de imágenes";
+
+// MARK: - Import
+"import.title" = "Importar datos";
+"import.selectFormat" = "Seleccionar formato de archivo";
+"import.csv" = "Formato CSV";
+"import.csv.description" = "Archivo de texto separado por comas";
+"import.vcard" = "Formato vCard";
+"import.vcard.description" = "Formato de contacto estándar (.vcf)";
+"import.selectFile" = "Seleccionar archivo";
+"import.preview.title" = "Vista previa de importación";
+"import.preview.found %lld" = "Se encontraron %lld entradas";
+"import.preview.duplicates %lld" = "%lld entradas coinciden con datos existentes";
+"import.preview.textOnly" = "Las imágenes de tarjetas y los registros de encuentros no se importarán. Solo información de texto.";
+"import.preview.entries" = "Entradas a importar";
+"import.preview.andMore %lld" = "y %lld más...";
+"import.duplicate" = "Duplicado";
+"import.duplicateHandling" = "Manejo de duplicados";
+"import.duplicateHandling.skip" = "Omitir";
+"import.duplicateHandling.addCard" = "Agregar como nueva tarjeta";
+"import.execute" = "Importar";
+"import.processing" = "Importando...";
+"import.result.title" = "Importación completada";
+"import.result.imported %lld" = "%lld entradas importadas";
+"import.result.skipped %lld" = "%lld entradas omitidas";
+"import.result.duplicates %lld" = "%lld entradas omitidas por duplicado";
+"import.result.errors %lld" = "%lld errores ocurridos";
+"import.result.errorDetails" = "Detalles del error";
+"import.error.invalidFormat" = "Formato de archivo no válido";
+"import.error.noData" = "No se encontraron datos importables";
+"import.error.headerNotFound" = "No se reconocieron los encabezados CSV";
+"import.error.fileAccessDenied" = "No se pudo acceder al archivo";
+
+// MARK: - Settings Data Management
+"settings.dataManagement" = "Gestión de datos";
+"settings.import" = "Importar datos";
+"settings.export" = "Exportar";

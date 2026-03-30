@@ -302,3 +302,37 @@
 "llm.apiKey.delete" = "删除API密钥";
 "llm.apiKey.invalid" = "API密钥无效";
 "llm.error.imageNotSupported" = "所选提供商不支持图片输入";
+
+// MARK: - Import
+"import.title" = "导入数据";
+"import.selectFormat" = "选择文件格式";
+"import.csv" = "CSV格式";
+"import.csv.description" = "逗号分隔的文本文件";
+"import.vcard" = "vCard格式";
+"import.vcard.description" = "标准联系人格式(.vcf)";
+"import.preview.title" = "预览";
+"import.preview.found %lld" = "发现%lld条数据";
+"import.preview.duplicates %lld" = "其中%lld条为重复";
+"import.preview.textOnly" = "仅导入文字信息。";
+"import.preview.entries" = "待导入数据";
+"import.preview.andMore %lld" = "还有%lld条...";
+"import.duplicateHandling" = "重复数据处理";
+"import.duplicateHandling.skip" = "跳过";
+"import.duplicateHandling.addCard" = "作为名片添加";
+"import.duplicate" = "重复";
+"import.execute" = "开始导入";
+"import.processing" = "正在导入...";
+"import.result.title" = "导入完成";
+"import.result.imported %lld" = "成功导入%lld条";
+"import.result.duplicates %lld" = "检测到%lld条重复";
+"import.result.skipped %lld" = "跳过%lld条";
+"import.result.errors %lld" = "失败%lld条";
+"import.result.errorDetails" = "错误详情";
+"import.error.invalidFormat" = "文件格式无效";
+"import.error.noData" = "文件中没有数据";
+"import.error.readFailed" = "文件读取失败";
+
+// MARK: - Settings Data Management
+"settings.dataManagement" = "数据管理";
+"settings.import" = "导入数据";
+"settings.import.description" = "从CSV或vCard文件导入";

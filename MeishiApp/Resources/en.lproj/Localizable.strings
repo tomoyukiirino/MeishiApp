@@ -302,3 +302,39 @@
 "llm.apiKey.delete" = "Delete API Key";
 "llm.apiKey.invalid" = "Invalid API key";
 "llm.error.imageNotSupported" = "The selected provider does not support image input";
+
+// MARK: - Import
+"import.title" = "Import Data";
+"import.selectFormat" = "Select File Format";
+"import.csv" = "CSV Format";
+"import.csv.description" = "Comma-separated text file";
+"import.vcard" = "vCard Format";
+"import.vcard.description" = "Standard contact format (.vcf)";
+"import.selectFile" = "Select File";
+"import.preview.title" = "Import Preview";
+"import.preview.found %lld" = "%lld entries found";
+"import.preview.duplicates %lld" = "%lld entries match existing data";
+"import.preview.textOnly" = "Card images and meeting records will not be imported. Text information only.";
+"import.preview.entries" = "Entries to Import";
+"import.preview.andMore %lld" = "and %lld more...";
+"import.duplicate" = "Duplicate";
+"import.duplicateHandling" = "Duplicate Handling";
+"import.duplicateHandling.skip" = "Skip";
+"import.duplicateHandling.addCard" = "Add as New Card";
+"import.execute" = "Import";
+"import.processing" = "Importing...";
+"import.result.title" = "Import Complete";
+"import.result.imported %lld" = "%lld entries imported";
+"import.result.skipped %lld" = "%lld entries skipped";
+"import.result.duplicates %lld" = "%lld entries skipped as duplicates";
+"import.result.errors %lld" = "%lld errors occurred";
+"import.result.errorDetails" = "Error Details";
+"import.error.invalidFormat" = "Invalid file format";
+"import.error.noData" = "No importable data found";
+"import.error.headerNotFound" = "Could not recognize CSV headers";
+"import.error.fileAccessDenied" = "Could not access the file";
+
+// MARK: - Settings Data Management
+"settings.dataManagement" = "Data Management";
+"settings.import" = "Import Data";
+"settings.export" = "Export";

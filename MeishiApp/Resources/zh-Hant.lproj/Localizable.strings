@@ -302,3 +302,37 @@
 "llm.apiKey.delete" = "刪除 API 金鑰";
 "llm.apiKey.invalid" = "API 金鑰無效";
 "llm.error.imageNotSupported" = "所選供應商不支援圖片輸入";
+
+// MARK: - Import
+"import.title" = "匯入資料";
+"import.selectFormat" = "選擇檔案格式";
+"import.csv" = "CSV 格式";
+"import.csv.description" = "逗號分隔的文字檔案";
+"import.vcard" = "vCard 格式";
+"import.vcard.description" = "標準聯絡人格式(.vcf)";
+"import.preview.title" = "預覽";
+"import.preview.found %lld" = "發現 %lld 筆資料";
+"import.preview.duplicates %lld" = "其中 %lld 筆為重複";
+"import.preview.textOnly" = "僅匯入文字資訊。";
+"import.preview.entries" = "待匯入資料";
+"import.preview.andMore %lld" = "還有 %lld 筆...";
+"import.duplicateHandling" = "重複資料處理";
+"import.duplicateHandling.skip" = "略過";
+"import.duplicateHandling.addCard" = "作為名片新增";
+"import.duplicate" = "重複";
+"import.execute" = "開始匯入";
+"import.processing" = "正在匯入...";
+"import.result.title" = "匯入完成";
+"import.result.imported %lld" = "成功匯入 %lld 筆";
+"import.result.duplicates %lld" = "偵測到 %lld 筆重複";
+"import.result.skipped %lld" = "略過 %lld 筆";
+"import.result.errors %lld" = "失敗 %lld 筆";
+"import.result.errorDetails" = "錯誤詳情";
+"import.error.invalidFormat" = "檔案格式無效";
+"import.error.noData" = "檔案中沒有資料";
+"import.error.readFailed" = "檔案讀取失敗";
+
+// MARK: - Settings Data Management
+"settings.dataManagement" = "資料管理";
+"settings.import" = "匯入資料";
+"settings.import.description" = "從 CSV 或 vCard 檔案匯入";

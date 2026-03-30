@@ -304,3 +304,39 @@
 "llm.apiKey.delete" = "Supprimer la clé API";
 "llm.apiKey.invalid" = "Clé API invalide";
 "llm.error.imageNotSupported" = "Le fournisseur sélectionné ne prend pas en charge l'entrée d'images";
+
+// MARK: - Import
+"import.title" = "Importer des données";
+"import.selectFormat" = "Sélectionner le format de fichier";
+"import.csv" = "Format CSV";
+"import.csv.description" = "Fichier texte séparé par des virgules";
+"import.vcard" = "Format vCard";
+"import.vcard.description" = "Format de contact standard (.vcf)";
+"import.selectFile" = "Sélectionner un fichier";
+"import.preview.title" = "Aperçu de l'importation";
+"import.preview.found %lld" = "%lld entrées trouvées";
+"import.preview.duplicates %lld" = "%lld entrées correspondent à des données existantes";
+"import.preview.textOnly" = "Les images de cartes et les historiques de rencontres ne seront pas importés. Informations textuelles uniquement.";
+"import.preview.entries" = "Entrées à importer";
+"import.preview.andMore %lld" = "et %lld autres...";
+"import.duplicate" = "Doublon";
+"import.duplicateHandling" = "Gestion des doublons";
+"import.duplicateHandling.skip" = "Ignorer";
+"import.duplicateHandling.addCard" = "Ajouter comme nouvelle carte";
+"import.execute" = "Importer";
+"import.processing" = "Importation...";
+"import.result.title" = "Importation terminée";
+"import.result.imported %lld" = "%lld entrées importées";
+"import.result.skipped %lld" = "%lld entrées ignorées";
+"import.result.duplicates %lld" = "%lld entrées ignorées car doublons";
+"import.result.errors %lld" = "%lld erreurs survenues";
+"import.result.errorDetails" = "Détails des erreurs";
+"import.error.invalidFormat" = "Format de fichier invalide";
+"import.error.noData" = "Aucune donnée importable trouvée";
+"import.error.headerNotFound" = "En-têtes CSV non reconnus";
+"import.error.fileAccessDenied" = "Impossible d'accéder au fichier";
+
+// MARK: - Settings Data Management
+"settings.dataManagement" = "Gestion des données";
+"settings.import" = "Importer des données";
+"settings.export" = "Exporter";

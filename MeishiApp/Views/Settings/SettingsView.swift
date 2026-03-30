@@ -27,6 +27,9 @@ struct SettingsView: View {
     @State private var showingRestoreFilePicker = false
     @State private var backupErrorMessage = ""
 
+    // インポート
+    @State private var showingImportView = false
+
     // MARK: - Body
 
     var body: some View {
@@ -40,6 +43,9 @@ struct SettingsView: View {
 
                 // タグ管理セクション（Phase 2）
                 tagManagementSection
+
+                // データ管理セクション
+                dataManagementSection
 
                 // OCR設定セクション
                 ocrSection
@@ -85,6 +91,9 @@ struct SettingsView: View {
                         await restoreFromBackup(url: url)
                     }
                 }
+            }
+            .sheet(isPresented: $showingImportView) {
+                ImportView()
             }
             .task {
                 await loadSettings()
@@ -165,6 +174,35 @@ struct SettingsView: View {
                     Text(String(localized: "tag.management"))
                     Spacer()
                     Text("\(allTags.count)")
+                        .foregroundStyle(.secondary)
+                }
+            }
+        }
+    }
+
+    /// データ管理セクション
+    private var dataManagementSection: some View {
+        Section(header: Text(String(localized: "settings.dataManagement"))) {
+            Button {
+                showingImportView = true
+            } label: {
+                HStack {
+                    Image(systemName: "square.and.arrow.down")
+                        .foregroundStyle(.blue)
+                        .frame(width: 24)
+
+                    VStack(alignment: .leading, spacing: 4) {
+                        Text(String(localized: "settings.import"))
+                            .foregroundStyle(.primary)
+                        Text(String(localized: "settings.import.description"))
+                            .font(.caption)
+                            .foregroundStyle(.secondary)
+                    }
+
+                    Spacer()
+
+                    Image(systemName: "chevron.right")
+                        .font(.caption)
                         .foregroundStyle(.secondary)
                 }
             }

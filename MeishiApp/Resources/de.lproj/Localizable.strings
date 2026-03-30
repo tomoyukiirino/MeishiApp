@@ -304,3 +304,39 @@
 "llm.apiKey.delete" = "API-Schlüssel löschen";
 "llm.apiKey.invalid" = "Ungültiger API-Schlüssel";
 "llm.error.imageNotSupported" = "Der ausgewählte Anbieter unterstützt keine Bildeingabe";
+
+// MARK: - Import
+"import.title" = "Daten importieren";
+"import.selectFormat" = "Dateiformat auswählen";
+"import.csv" = "CSV-Format";
+"import.csv.description" = "Kommagetrennte Textdatei";
+"import.vcard" = "vCard-Format";
+"import.vcard.description" = "Standard-Kontaktformat (.vcf)";
+"import.selectFile" = "Datei auswählen";
+"import.preview.title" = "Import-Vorschau";
+"import.preview.found %lld" = "%lld Einträge gefunden";
+"import.preview.duplicates %lld" = "%lld Einträge stimmen mit vorhandenen Daten überein";
+"import.preview.textOnly" = "Visitenkartenbilder und Treffprotokolle werden nicht importiert. Nur Textinformationen.";
+"import.preview.entries" = "Zu importierende Einträge";
+"import.preview.andMore %lld" = "und %lld weitere...";
+"import.duplicate" = "Duplikat";
+"import.duplicateHandling" = "Duplikatbehandlung";
+"import.duplicateHandling.skip" = "Überspringen";
+"import.duplicateHandling.addCard" = "Als neue Karte hinzufügen";
+"import.execute" = "Importieren";
+"import.processing" = "Importieren...";
+"import.result.title" = "Import abgeschlossen";
+"import.result.imported %lld" = "%lld Einträge importiert";
+"import.result.skipped %lld" = "%lld Einträge übersprungen";
+"import.result.duplicates %lld" = "%lld Einträge als Duplikate übersprungen";
+"import.result.errors %lld" = "%lld Fehler aufgetreten";
+"import.result.errorDetails" = "Fehlerdetails";
+"import.error.invalidFormat" = "Ungültiges Dateiformat";
+"import.error.noData" = "Keine importierbaren Daten gefunden";
+"import.error.headerNotFound" = "CSV-Header nicht erkannt";
+"import.error.fileAccessDenied" = "Dateizugriff nicht möglich";
+
+// MARK: - Settings Data Management
+"settings.dataManagement" = "Datenverwaltung";
+"settings.import" = "Daten importieren";
+"settings.export" = "Exportieren";
