@@ -1,0 +1,11 @@
+/*
+  InfoPlist.strings
+  MeishiApp
+
+  الترجمة العربية لأوصاف الأذونات
+*/
+
+NSCameraUsageDescription = "تُستخدم الكاميرا لمسح بطاقات العمل";
+NSPhotoLibraryUsageDescription = "تُستخدم مكتبة الصور لاختيار صور بطاقات العمل وصور الوجه";
+NSContactsUsageDescription = "يُستخدم لحفظ معلومات بطاقات العمل في جهات اتصال iPhone";
+NSFaceIDUsageDescription = "يُستخدم Face ID لفتح قفل التطبيق";

@@ -1,0 +1,11 @@
+/*
+  InfoPlist.strings
+  MeishiApp
+
+  简体中文权限说明
+*/
+
+NSCameraUsageDescription = "相机用于扫描名片";
+NSPhotoLibraryUsageDescription = "相册用于选择名片图片和头像照片";
+NSContactsUsageDescription = "用于将名片信息保存到iPhone通讯录";
+NSFaceIDUsageDescription = "面容ID用于解锁应用";

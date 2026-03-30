@@ -1,0 +1,11 @@
+/*
+  InfoPlist.strings
+  MeishiApp
+
+  Localizzazione italiana per le descrizioni delle autorizzazioni
+*/
+
+NSCameraUsageDescription = "La fotocamera viene usata per scansionare i biglietti da visita";
+NSPhotoLibraryUsageDescription = "La libreria foto viene usata per selezionare immagini di biglietti e foto del viso";
+NSContactsUsageDescription = "Usato per salvare le informazioni del biglietto da visita nei Contatti iPhone";
+NSFaceIDUsageDescription = "Face ID viene usato per sbloccare l'app";

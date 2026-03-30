@@ -1,0 +1,11 @@
+/*
+  InfoPlist.strings
+  MeishiApp
+
+  Deutsche Lokalisierung für Berechtigungsbeschreibungen
+*/
+
+NSCameraUsageDescription = "Die Kamera wird zum Scannen von Visitenkarten verwendet";
+NSPhotoLibraryUsageDescription = "Die Fotomediathek wird zur Auswahl von Visitenkartenbildern und Gesichtsfotos verwendet";
+NSContactsUsageDescription = "Wird verwendet, um Visitenkarteninformationen in den iPhone-Kontakten zu speichern";
+NSFaceIDUsageDescription = "Face ID wird zum Entsperren der App verwendet";

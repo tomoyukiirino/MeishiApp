@@ -1,0 +1,306 @@
+/*
+  Localizable.strings
+  MeishiApp
+
+  تطبيق إدارة بطاقات العمل - الترجمة العربية
+*/
+
+// MARK: - Common
+"common.save" = "حفظ";
+"common.cancel" = "إلغاء";
+"common.delete" = "حذف";
+"common.edit" = "تعديل";
+"common.done" = "تم";
+"common.close" = "إغلاق";
+"common.add" = "إضافة";
+"common.search" = "بحث";
+"common.confirm" = "تأكيد";
+"common.yes" = "نعم";
+"common.no" = "لا";
+"common.ok" = "موافق";
+"common.retry" = "إعادة المحاولة";
+"common.skip" = "تخطي";
+"common.next" = "التالي";
+"common.back" = "رجوع";
+"common.select" = "تحديد";
+"common.loading" = "جارٍ التحميل...";
+"common.processing" = "جارٍ المعالجة...";
+
+// MARK: - Person
+"person.name" = "الاسم";
+"person.nameReading" = "طريقة النطق";
+"person.company" = "الشركة";
+"person.title" = "المنصب";
+"person.department" = "القسم";
+"person.memo" = "ملاحظات";
+"person.list.title" = "بطاقات العمل";
+"person.list.empty" = "لا توجد بطاقات عمل بعد";
+"person.list.empty.hint" = "اضغط على الزر أسفل اليمين لإضافة بطاقة عمل";
+"person.detail.title" = "التفاصيل";
+"person.detail.cardHistory" = "سجل البطاقات";
+"person.detail.encounterHistory" = "سجل اللقاءات";
+"person.detail.exportToContacts" = "حفظ في جهات الاتصال";
+"person.detail.findPhotos" = "عرض المزيد من صور هذا الشخص";
+"person.delete.confirm.title" = "تأكيد الحذف";
+"person.delete.confirm.message" = "هل تريد حذف جميع معلومات %@؟ لا يمكن التراجع عن هذا الإجراء.";
+"person.sort.recent" = "الأحدث";
+"person.sort.name" = "حسب الاسم";
+"person.sort.company" = "حسب الشركة";
+
+// MARK: - Card (BusinessCard)
+"card.add" = "إضافة بطاقة عمل";
+"card.front" = "الوجه الأمامي";
+"card.back" = "الوجه الخلفي";
+"card.phone" = "رقم الهاتف";
+"card.email" = "البريد الإلكتروني";
+"card.address" = "العنوان";
+"card.website" = "الموقع الإلكتروني";
+"card.acquiredAt" = "تاريخ الاستلام";
+"card.memo" = "ملاحظات";
+"card.delete.confirm.title" = "حذف البطاقة";
+"card.delete.confirm.message" = "هل تريد حذف هذه البطاقة؟";
+
+// MARK: - Encounter
+"encounter.add" = "إضافة لقاء";
+"encounter.eventName" = "اسم الفعالية";
+"encounter.eventName.placeholder" = "مثال: مؤتمر طبي 2024";
+"encounter.date" = "التاريخ والوقت";
+"encounter.location" = "المكان";
+"encounter.location.placeholder" = "مثال: مركز المؤتمرات";
+"encounter.memo" = "ملاحظات";
+"encounter.memo.placeholder" = "أدخل ملاحظة...";
+"encounter.whereDidYouMeet" = "تفاصيل اللقاء";
+"encounter.delete.confirm.title" = "حذف اللقاء";
+"encounter.delete.confirm.message" = "هل تريد حذف هذا اللقاء؟";
+
+// MARK: - Capture
+"capture.title" = "مسح بطاقة العمل";
+"capture.instruction" = "ضع بطاقة العمل داخل الإطار";
+"capture.takePhoto" = "التقاط";
+"capture.retake" = "إعادة الالتقاط";
+"capture.usePhoto" = "استخدام هذه الصورة";
+"capture.captureBack" = "هل تريد مسح الوجه الخلفي أيضًا؟";
+"capture.captureBack.yes" = "مسح الوجه الخلفي";
+"capture.captureBack.no" = "الوجه الأمامي فقط";
+"capture.fromLibrary" = "اختيار من مكتبة الصور";
+"capture.useCamera" = "التقاط بالكاميرا";
+"capture.selectSource" = "إضافة بطاقة عمل";
+"capture.selectSource.description" = "امسح بالكاميرا أو اختر صورة من مكتبة الصور";
+"capture.cameraUnavailable" = "الكاميرا غير متوفرة على هذا الجهاز";
+"capture.cameraPermission.title" = "الوصول إلى الكاميرا";
+"capture.cameraPermission.message" = "يلزم الوصول إلى الكاميرا لمسح بطاقات العمل. يرجى السماح بالوصول من الإعدادات.";
+"capture.photoPermission.title" = "الوصول إلى الصور";
+"capture.photoPermission.message" = "يلزم الوصول إلى مكتبة الصور لاختيار الصور. يرجى السماح بالوصول من الإعدادات.";
+"capture.openSettings" = "فتح الإعدادات";
+"capture.rotate" = "تدوير";
+"capture.confirmOrientation" = "المتابعة بهذا الاتجاه";
+"capture.orientationHint" = "إذا لم تكن البطاقة في الاتجاه الصحيح، اضغط على زر التدوير";
+
+// MARK: - OCR
+"ocr.processing" = "جارٍ التعرف على النص...";
+"ocr.complete" = "اكتمل التعرف";
+"ocr.failed" = "فشل التعرف على النص";
+"ocr.noTextFound" = "لم يُعثر على نص";
+"ocr.extracted" = "النص المستخرج";
+"ocr.structuring" = "جارٍ تنظيم المعلومات...";
+"ocr.aiStructuring" = "الذكاء الاصطناعي يقوم بهيكلة المعلومات...";
+
+// MARK: - Registration
+"registration.title" = "التحقق من بطاقة العمل";
+"registration.instruction" = "يرجى التحقق من المعلومات المستخرجة وتصحيحها";
+"registration.required" = "مطلوب";
+"registration.optional" = "اختياري";
+"registration.nameOrCompanyRequired" = "الاسم أو الشركة مطلوب";
+"registration.addPhoneNumber" = "إضافة رقم هاتف";
+"registration.addEmail" = "إضافة بريد إلكتروني";
+
+// MARK: - Duplicate Detection
+"duplicate.found.title" = "شخص موجود مسبقًا";
+"duplicate.found.message" = "%@ مسجل بالفعل.";
+"duplicate.addToExisting" = "إضافة إلى هذا الشخص";
+"duplicate.registerAsNew" = "تسجيل كشخص جديد";
+"duplicate.selectInfo.title" = "اختيار المعلومات";
+"duplicate.selectInfo.message" = "أي معلومات تريد استخدامها لهذا الشخص؟ سيتم إضافة كلتا البطاقتين.";
+"duplicate.existingInfo" = "المعلومات الحالية";
+"duplicate.newInfo" = "المعلومات الجديدة";
+"duplicate.confirmAndSave" = "حفظ بهذه المعلومات";
+
+// MARK: - Face Photo
+"face.add" = "إضافة صورة";
+"face.change" = "تغيير الصورة";
+"face.remove" = "إزالة الصورة";
+"face.select" = "اختيار صورة";
+"face.detecting" = "جارٍ الكشف عن الوجه...";
+"face.selectFace" = "انقر على وجه هذا الشخص";
+"face.noFaceDetected" = "لم يتم الكشف عن وجه";
+"face.confirm" = "استخدام هذه الصورة؟";
+"face.searchFromPhoto" = "البحث من الصورة";
+"face.useThisPhoto" = "تسجيل هذه الصورة";
+
+// MARK: - Settings
+"settings.title" = "الإعدادات";
+"settings.general" = "عام";
+"settings.security" = "الأمان";
+"settings.biometricLock" = "القفل البيومتري";
+"settings.biometricLock.faceId" = "القفل باستخدام Face ID";
+"settings.biometricLock.touchId" = "القفل باستخدام Touch ID";
+"settings.biometricLock.description" = "يتطلب المصادقة عند فتح التطبيق";
+"settings.ocr" = "إعدادات OCR";
+"settings.ocrLanguages" = "لغات التعرف";
+"settings.ocrLanguages.description" = "تحديد أولوية اللغات للتعرف على بطاقات العمل";
+"settings.ai" = "الهيكلة بالذكاء الاصطناعي";
+"settings.aiMode" = "وضع الهيكلة بالذكاء الاصطناعي";
+"settings.aiMode.privacy" = "أولوية الخصوصية";
+"settings.aiMode.privacy.description" = "يتم إرسال النص فقط. تبقى الصور على الجهاز";
+"settings.aiMode.accuracy" = "أولوية الدقة";
+"settings.aiMode.accuracy.description" = "يتم إرسال صور البطاقات. الحذف التلقائي خلال 7 أيام";
+"settings.backup" = "النسخ الاحتياطي";
+"settings.backup.auto" = "نسخ احتياطي تلقائي";
+"settings.backup.manual" = "إنشاء نسخة احتياطية الآن";
+"settings.backup.restore" = "الاستعادة من نسخة احتياطية";
+"settings.about" = "حول هذا التطبيق";
+"settings.version" = "الإصدار";
+"settings.privacyPolicy" = "سياسة الخصوصية";
+"settings.termsOfService" = "شروط الخدمة";
+
+// MARK: - Backup
+"backup.creating" = "جارٍ إنشاء النسخة الاحتياطية...";
+"backup.created" = "تم إنشاء النسخة الاحتياطية";
+"backup.failed" = "فشل النسخ الاحتياطي";
+"backup.restoring" = "جارٍ استعادة البيانات...";
+"backup.restored" = "تمت استعادة البيانات";
+"backup.restoreFailed" = "فشلت الاستعادة";
+"backup.selectFile" = "اختيار ملف النسخة الاحتياطية";
+"backup.confirm.title" = "تأكيد الاستعادة";
+"backup.confirm.message" = "سيتم استبدال البيانات الحالية. هل تريد المتابعة؟";
+"backup.icloud" = "iCloud Drive";
+"backup.icloud.enabled" = "نسخ احتياطي تلقائي إلى iCloud Drive";
+
+// MARK: - Export
+"export.title" = "تصدير";
+"export.csv" = "صيغة CSV";
+"export.vcard" = "صيغة vCard";
+"export.all" = "جميع البيانات";
+"export.filtered" = "البيانات المفلترة";
+"export.success" = "اكتمل التصدير";
+"export.failed" = "فشل التصدير";
+
+// MARK: - Tag
+"tag.add" = "إضافة وسم";
+"tag.create" = "إنشاء وسم جديد";
+"tag.name" = "اسم الوسم";
+"tag.name.placeholder" = "مثال: مؤتمر";
+"tag.filter" = "تصفية حسب الوسم";
+"tag.all" = "عرض الكل";
+
+// MARK: - Error Messages
+"error.generic" = "حدث خطأ";
+"error.network" = "خطأ في الشبكة";
+"error.apiKey" = "مفتاح API غير صالح";
+"error.rateLimit" = "تم الوصول إلى الحد الأقصى للطلبات. يرجى الانتظار";
+"error.timeout" = "انتهت مهلة الاتصال";
+"error.saveData" = "تعذر حفظ البيانات";
+"error.loadData" = "تعذر تحميل البيانات";
+"error.deleteData" = "تعذر حذف البيانات";
+"error.cameraUnavailable" = "الكاميرا غير متوفرة";
+"error.photoLibraryUnavailable" = "مكتبة الصور غير متوفرة";
+"error.contactSaveFailed" = "تعذر حفظ جهة الاتصال";
+"error.contactAlreadyExists" = "توجد جهة اتصال بهذا الاسم مسبقًا";
+
+// MARK: - Authentication
+"auth.required" = "المصادقة مطلوبة";
+"auth.reason" = "يرجى المصادقة للوصول إلى بيانات بطاقات العمل";
+"auth.failed" = "فشلت المصادقة";
+"auth.cancelled" = "تم إلغاء المصادقة";
+"auth.notAvailable" = "المصادقة البيومترية غير متوفرة";
+"auth.passcode" = "المصادقة بالرمز";
+"auth.unlock" = "فتح القفل";
+
+// MARK: - Contact Export
+"contact.preview.title" = "معاينة جهة الاتصال";
+"contact.preview.message" = "ستتم إضافة المعلومات التالية إلى جهات اتصال iPhone";
+"contact.save" = "حفظ في جهات الاتصال";
+"contact.saved" = "تم الحفظ في جهات الاتصال";
+"contact.permission.title" = "الوصول إلى جهات الاتصال";
+"contact.permission.message" = "يلزم الوصول إلى جهات الاتصال للحفظ. يرجى السماح بالوصول من الإعدادات.";
+
+// MARK: - AI Disclosure
+"ai.disclosure.title" = "حول الهيكلة بالذكاء الاصطناعي";
+"ai.disclosure.message" = "عند استخدام الهيكلة بالذكاء الاصطناعي، يتم إرسال معلومات بطاقات العمل إلى خوادم Anthropic.\n\n• وضع الخصوصية: يتم إرسال النص فقط\n• وضع الدقة: يتم إرسال الصور أيضًا\n\nلا تُستخدم البيانات المرسلة لتدريب الذكاء الاصطناعي ويتم حذفها تلقائيًا خلال 7 أيام.";
+"ai.disclosure.understand" = "فهمت";
+"ai.disclosure.learnMore" = "معرفة المزيد";
+"ai.disclosure.what.title" = "ما هي الهيكلة بالذكاء الاصطناعي؟";
+"ai.disclosure.what.description" = "يحلل الذكاء الاصطناعي نص OCR أو صور بطاقات العمل ويقوم بهيكلة الاسم والشركة ومعلومات الاتصال تلقائيًا.";
+"ai.disclosure.privacy.title" = "حماية الخصوصية";
+"ai.disclosure.privacy.description" = "لا تُستخدم البيانات المرسلة لتدريب الذكاء الاصطناعي. يتم حذفها تلقائيًا خلال 7 أيام بعد المعالجة.";
+"ai.disclosure.modes.title" = "وضعان";
+"ai.disclosure.modes.description" = "أولوية الخصوصية: يتم إرسال النص فقط. أولوية الدقة: يتم إرسال الصور أيضًا لهيكلة أكثر دقة.";
+"ai.disclosure.storage.title" = "تخزين البيانات";
+"ai.disclosure.storage.description" = "يتم تخزين البيانات المهيكلة على جهازك فقط. لا يتم تخزينها في أي خدمة سحابية.";
+
+// MARK: - Settings (Phase 2 additions)
+"settings.aiStructuring" = "الهيكلة بالذكاء الاصطناعي";
+"settings.aiStructuring.footer" = "تستخدم الهيكلة بالذكاء الاصطناعي Claude API. حسب الإعدادات، يتم إرسال النص أو الصور إلى الخادم.";
+"settings.aiDisclosure" = "حول استخدام الذكاء الاصطناعي";
+
+// MARK: - Tag Management
+"tag.management" = "إدارة الوسوم";
+"tag.edit" = "تعديل الوسم";
+
+// MARK: - Backup (Phase 2 additions)
+"backup.success" = "اكتمل النسخ الاحتياطي";
+"backup.noBackups" = "لا توجد نسخ احتياطية";
+"backup.noBackups.description" = "لم يتم إنشاء نسخ احتياطية بعد. اضغط على «إنشاء نسخة احتياطية الآن» لإنشاء نسخة.";
+
+// MARK: - Card Rescan
+"card.rescan" = "إعادة المسح";
+"card.rescanning" = "جارٍ إعادة المسح...";
+"card.rescan.success" = "اكتملت إعادة المسح";
+"card.rescan.success.message" = "تم تحديث معلومات البطاقة.";
+
+// MARK: - Primary Card
+"card.primary" = "رئيسية";
+"card.setAsPrimary" = "تعيين كبطاقة رئيسية";
+"card.cannotDeletePrimary" = "لا يمكن حذف البطاقة الرئيسية";
+
+// MARK: - Person Merge
+"person.merge.button" = "دمج هذا الشخص مع شخص آخر";
+"person.merge.selectTarget" = "اختيار الشخص المستهدف";
+"person.merge.searchPlaceholder" = "البحث بالاسم أو الشركة";
+"person.merge.resultCount %lld" = "%lld مرشح";
+"person.merge.noResults" = "لم يُعثر على شخص مطابق";
+"person.merge.noResults.description" = "يرجى تعديل معايير البحث";
+"person.merge.confirm.title" = "تأكيد الدمج";
+"person.merge.source" = "المصدر";
+"person.merge.target" = "الهدف";
+"person.merge.selectName" = "اختيار الاسم المعروض";
+"person.merge.selectPhoto" = "اختيار الصورة";
+"person.merge.preview" = "بعد الدمج";
+"person.merge.preview.cards %lld %lld %lld" = "البطاقات: %lld + %lld = %lld";
+"person.merge.preview.encounters %lld %lld %lld" = "اللقاءات: %lld + %lld = %lld";
+"person.merge.warning" = "لا يمكن التراجع عن هذا الإجراء.";
+"person.merge.execute" = "دمج";
+"person.merge.success" = "اكتمل الدمج";
+
+// MARK: - LLM Settings
+"llm.connectionMode" = "وضع الاتصال";
+"llm.connectionMode.footer" = "اختر وضع الاتصال للهيكلة بالذكاء الاصطناعي. إذا كنت تستخدم مفتاح API الخاص بك، احصل عليه من المزود المعني.";
+"llm.mode.none" = "عدم استخدام الهيكلة بالذكاء الاصطناعي";
+"llm.mode.none.description" = "لا يتم هيكلة نص OCR تلقائيًا";
+"llm.mode.akkurat" = "اشتراك Akkurat";
+"llm.mode.akkurat.description" = "الهيكلة بالذكاء الاصطناعي عبر اشتراك Akkurat المميز";
+"llm.mode.selfApiKey" = "استخدام مفتاح API الخاص بك";
+"llm.mode.selfApiKey.description" = "الهيكلة بالذكاء الاصطناعي باستخدام مفتاح API الخاص بك";
+"llm.mode.notSupported" = "غير مدعوم";
+"llm.provider" = "مزود الذكاء الاصطناعي";
+"llm.provider.needsApiKey" = "المزود المحدد يتطلب مفتاح API";
+"llm.provider.textOnly" = "نص فقط (لا يدعم الصور)";
+"llm.apiKey.title %@" = "مفتاح API لـ %@";
+"llm.apiKey.notSet" = "مفتاح API غير محدد";
+"llm.apiKey.settings" = "إعدادات مفتاح API";
+"llm.apiKey.description" = "يتم تخزين مفتاح API بأمان في سلسلة مفاتيح الجهاز. لا يتم إرساله إلى أي خدمة سحابية (باستثناء أثناء استدعاءات API).";
+"llm.apiKey.getKey" = "الحصول على مفتاح API";
+"llm.apiKey.test" = "اختبار الاتصال";
+"llm.apiKey.delete" = "حذف مفتاح API";
+"llm.apiKey.invalid" = "مفتاح API غير صالح";
+"llm.error.imageNotSupported" = "المزود المحدد لا يدعم إدخال الصور";

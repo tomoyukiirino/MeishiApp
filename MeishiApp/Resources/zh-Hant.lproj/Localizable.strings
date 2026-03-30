@@ -1,0 +1,304 @@
+/*
+  Localizable.strings (Traditional Chinese)
+  MeishiApp
+*/
+
+// MARK: - Common
+"common.save" = "儲存";
+"common.cancel" = "取消";
+"common.delete" = "刪除";
+"common.edit" = "編輯";
+"common.done" = "完成";
+"common.close" = "關閉";
+"common.add" = "新增";
+"common.search" = "搜尋";
+"common.confirm" = "確認";
+"common.yes" = "是";
+"common.no" = "否";
+"common.ok" = "確定";
+"common.retry" = "重試";
+"common.skip" = "略過";
+"common.next" = "下一步";
+"common.back" = "返回";
+"common.select" = "選擇";
+"common.loading" = "載入中...";
+"common.processing" = "處理中...";
+
+// MARK: - Person
+"person.name" = "姓名";
+"person.nameReading" = "注音";
+"person.company" = "公司";
+"person.title" = "職稱";
+"person.department" = "部門";
+"person.memo" = "備註";
+"person.list.title" = "名片";
+"person.list.empty" = "尚無名片";
+"person.list.empty.hint" = "點選右下角按鈕新增名片";
+"person.detail.title" = "詳細資料";
+"person.detail.cardHistory" = "名片記錄";
+"person.detail.encounterHistory" = "會面記錄";
+"person.detail.exportToContacts" = "儲存到通訊錄";
+"person.detail.findPhotos" = "尋找此人的更多照片";
+"person.delete.confirm.title" = "確認刪除";
+"person.delete.confirm.message" = "確定要刪除%@的所有資料嗎？此操作無法復原。";
+"person.sort.recent" = "最近新增";
+"person.sort.name" = "依姓名";
+"person.sort.company" = "依公司";
+
+// MARK: - Card
+"card.add" = "新增名片";
+"card.front" = "正面";
+"card.back" = "背面";
+"card.phone" = "電話";
+"card.email" = "電子郵件";
+"card.address" = "地址";
+"card.website" = "網站";
+"card.acquiredAt" = "取得日期";
+"card.memo" = "備註";
+"card.delete.confirm.title" = "刪除名片";
+"card.delete.confirm.message" = "確定要刪除這張名片嗎？";
+
+// MARK: - Encounter
+"encounter.add" = "新增記錄";
+"encounter.eventName" = "活動名稱";
+"encounter.eventName.placeholder" = "例：2024年台灣醫學會";
+"encounter.date" = "日期";
+"encounter.location" = "地點";
+"encounter.location.placeholder" = "例：國際會議中心";
+"encounter.memo" = "備註";
+"encounter.memo.placeholder" = "輸入備註...";
+"encounter.whereDidYouMeet" = "會面資訊";
+"encounter.delete.confirm.title" = "刪除記錄";
+"encounter.delete.confirm.message" = "確定要刪除這筆記錄嗎？";
+
+// MARK: - Capture
+"capture.title" = "掃描名片";
+"capture.instruction" = "將名片放入取景框內";
+"capture.takePhoto" = "拍攝";
+"capture.retake" = "重新拍攝";
+"capture.usePhoto" = "使用此照片";
+"capture.captureBack" = "是否拍攝背面？";
+"capture.captureBack.yes" = "拍攝背面";
+"capture.captureBack.no" = "僅正面";
+"capture.fromLibrary" = "從相簿選擇";
+"capture.useCamera" = "拍照";
+"capture.selectSource" = "新增名片";
+"capture.selectSource.description" = "拍照或從相簿選擇";
+"capture.cameraUnavailable" = "此裝置無法使用相機";
+"capture.cameraPermission.title" = "相機權限";
+"capture.cameraPermission.message" = "掃描名片需要使用相機，請在設定中允許存取。";
+"capture.photoPermission.title" = "照片權限";
+"capture.photoPermission.message" = "選擇照片需要存取相簿，請在設定中允許存取。";
+"capture.openSettings" = "開啟設定";
+"capture.rotate" = "旋轉";
+"capture.confirmOrientation" = "以此方向繼續";
+"capture.orientationHint" = "如名片方向不正確，請點選旋轉按鈕";
+
+// MARK: - OCR
+"ocr.processing" = "正在辨識文字...";
+"ocr.complete" = "辨識完成";
+"ocr.failed" = "文字辨識失敗";
+"ocr.noTextFound" = "未辨識到文字";
+"ocr.extracted" = "辨識結果";
+"ocr.structuring" = "正在整理資訊...";
+"ocr.aiStructuring" = "AI正在結構化資訊...";
+
+// MARK: - Registration
+"registration.title" = "確認名片資訊";
+"registration.instruction" = "請確認並修正辨識結果";
+"registration.required" = "必填";
+"registration.optional" = "選填";
+"registration.nameOrCompanyRequired" = "姓名或公司至少填寫一項";
+"registration.addPhoneNumber" = "新增電話號碼";
+"registration.addEmail" = "新增電子郵件地址";
+
+// MARK: - Duplicate Detection
+"duplicate.found.title" = "發現已有聯絡人";
+"duplicate.found.message" = "%@已經存在。";
+"duplicate.addToExisting" = "新增到此人名下";
+"duplicate.registerAsNew" = "註冊為新聯絡人";
+"duplicate.selectInfo.title" = "選擇保留的資訊";
+"duplicate.selectInfo.message" = "使用哪個資訊？兩張名片都會被保留。";
+"duplicate.existingInfo" = "現有資訊";
+"duplicate.newInfo" = "新名片資訊";
+"duplicate.confirmAndSave" = "以此資訊儲存";
+
+// MARK: - Face Photo
+"face.add" = "新增頭像";
+"face.change" = "更換頭像";
+"face.remove" = "移除頭像";
+"face.select" = "選擇照片";
+"face.detecting" = "正在偵測人臉...";
+"face.selectFace" = "請點選此人的臉部";
+"face.noFaceDetected" = "未偵測到人臉";
+"face.confirm" = "使用此頭像嗎？";
+"face.searchFromPhoto" = "從照片搜尋";
+"face.useThisPhoto" = "使用此照片";
+
+// MARK: - Settings
+"settings.title" = "設定";
+"settings.general" = "一般";
+"settings.security" = "安全性";
+"settings.biometricLock" = "生物辨識鎖定";
+"settings.biometricLock.faceId" = "Face ID 鎖定";
+"settings.biometricLock.touchId" = "Touch ID 鎖定";
+"settings.biometricLock.description" = "開啟 App 時要求驗證身分";
+"settings.ocr" = "OCR 設定";
+"settings.ocrLanguages" = "辨識語言";
+"settings.ocrLanguages.description" = "根據名片語言設定優先順序";
+"settings.ai" = "AI 結構化";
+"settings.aiMode" = "AI 結構化模式";
+"settings.aiMode.privacy" = "隱私優先";
+"settings.aiMode.privacy.description" = "僅傳送文字，圖片保留在裝置上";
+"settings.aiMode.accuracy" = "精確度優先";
+"settings.aiMode.accuracy.description" = "傳送名片圖片，7天內自動刪除";
+"settings.backup" = "備份";
+"settings.backup.auto" = "自動備份";
+"settings.backup.manual" = "立即建立備份";
+"settings.backup.restore" = "從備份還原";
+"settings.about" = "關於";
+"settings.version" = "版本";
+"settings.privacyPolicy" = "隱私權政策";
+"settings.termsOfService" = "服務條款";
+
+// MARK: - Backup
+"backup.creating" = "正在建立備份...";
+"backup.created" = "備份已建立";
+"backup.failed" = "備份建立失敗";
+"backup.restoring" = "正在還原資料...";
+"backup.restored" = "資料已還原";
+"backup.restoreFailed" = "資料還原失敗";
+"backup.selectFile" = "選擇備份檔案";
+"backup.confirm.title" = "確認還原";
+"backup.confirm.message" = "目前的資料將被覆蓋，是否繼續？";
+"backup.icloud" = "iCloud 雲碟";
+"backup.icloud.enabled" = "自動備份到 iCloud 雲碟";
+
+// MARK: - Export
+"export.title" = "匯出";
+"export.csv" = "CSV 格式";
+"export.vcard" = "vCard 格式";
+"export.all" = "全部資料";
+"export.filtered" = "篩選資料";
+"export.success" = "匯出完成";
+"export.failed" = "匯出失敗";
+
+// MARK: - Tag
+"tag.add" = "新增標籤";
+"tag.create" = "建立新標籤";
+"tag.name" = "標籤名稱";
+"tag.name.placeholder" = "例：學術會議";
+"tag.filter" = "依標籤篩選";
+"tag.all" = "顯示全部";
+
+// MARK: - Error Messages
+"error.generic" = "發生錯誤";
+"error.network" = "網路錯誤";
+"error.apiKey" = "API 金鑰無效";
+"error.rateLimit" = "請求次數已達上限，請稍後重試";
+"error.timeout" = "請求逾時";
+"error.saveData" = "資料儲存失敗";
+"error.loadData" = "資料載入失敗";
+"error.deleteData" = "資料刪除失敗";
+"error.cameraUnavailable" = "相機不可用";
+"error.photoLibraryUnavailable" = "相簿不可用";
+"error.contactSaveFailed" = "儲存聯絡人失敗";
+"error.contactAlreadyExists" = "同名聯絡人已存在";
+
+// MARK: - Authentication
+"auth.required" = "需要驗證身分";
+"auth.reason" = "請驗證身分以存取名片資料";
+"auth.failed" = "驗證失敗";
+"auth.cancelled" = "驗證已取消";
+"auth.notAvailable" = "生物辨識不可用";
+"auth.passcode" = "使用密碼驗證";
+"auth.unlock" = "解鎖";
+
+// MARK: - Contact Export
+"contact.preview.title" = "聯絡人預覽";
+"contact.preview.message" = "以下資訊將新增到 iPhone 通訊錄";
+"contact.save" = "儲存到通訊錄";
+"contact.saved" = "已儲存到通訊錄";
+"contact.permission.title" = "通訊錄權限";
+"contact.permission.message" = "儲存聯絡人需要存取通訊錄，請在設定中允許存取。";
+
+// MARK: - AI Disclosure
+"ai.disclosure.title" = "關於 AI 結構化";
+"ai.disclosure.message" = "AI 結構化功能會將名片資訊傳送到 AI 服務商的伺服器。\n\n• 隱私優先模式：僅傳送文字\n• 精確度優先模式：同時傳送圖片\n\n傳送的資料不會用於 AI 訓練，7天內自動刪除。";
+"ai.disclosure.understand" = "我已了解";
+"ai.disclosure.learnMore" = "了解更多";
+"ai.disclosure.what.title" = "什麼是 AI 結構化？";
+"ai.disclosure.what.description" = "AI 分析 OCR 文字或名片圖片，自動擷取姓名、公司和聯絡方式等資訊。";
+"ai.disclosure.privacy.title" = "隱私保護";
+"ai.disclosure.privacy.description" = "資料不會用於 AI 訓練。處理後 7 天內自動刪除。";
+"ai.disclosure.modes.title" = "兩種模式";
+"ai.disclosure.modes.description" = "隱私優先：僅傳送文字。精確度優先：傳送圖片以獲得更準確的結構化。";
+"ai.disclosure.storage.title" = "資料儲存";
+"ai.disclosure.storage.description" = "結構化後的資料僅儲存在您的裝置上，不會上傳到任何雲端。";
+
+// MARK: - Settings (Phase 2)
+"settings.aiStructuring" = "AI 結構化";
+"settings.aiStructuring.footer" = "AI 結構化使用 LLM API。根據設定可能會傳送文字或圖片。";
+"settings.aiDisclosure" = "AI 使用說明";
+
+// MARK: - Tag Management
+"tag.management" = "標籤管理";
+"tag.edit" = "編輯標籤";
+
+// MARK: - Backup (Phase 2)
+"backup.success" = "備份完成";
+"backup.noBackups" = "暫無備份";
+"backup.noBackups.description" = "尚未建立備份。點選「立即建立備份」開始備份。";
+
+// MARK: - Card Rescan
+"card.rescan" = "重新掃描";
+"card.rescanning" = "重新掃描中...";
+"card.rescan.success" = "重新掃描完成";
+"card.rescan.success.message" = "名片資訊已更新。";
+
+// MARK: - Primary Card
+"card.primary" = "主要名片";
+"card.setAsPrimary" = "設為主要名片";
+"card.cannotDeletePrimary" = "無法刪除主要名片";
+
+// MARK: - Person Merge
+"person.merge.button" = "與其他人合併";
+"person.merge.selectTarget" = "選擇合併對象";
+"person.merge.searchPlaceholder" = "依姓名或公司搜尋";
+"person.merge.resultCount %lld" = "%lld 個結果";
+"person.merge.noResults" = "未找到符合的人";
+"person.merge.noResults.description" = "請嘗試其他搜尋條件";
+"person.merge.confirm.title" = "確認合併";
+"person.merge.source" = "合併來源";
+"person.merge.target" = "合併目標";
+"person.merge.selectName" = "選擇顯示名稱";
+"person.merge.selectPhoto" = "選擇頭像";
+"person.merge.preview" = "合併後的資訊";
+"person.merge.preview.cards %lld %lld %lld" = "名片：%lld 張 + %lld 張 = %lld 張";
+"person.merge.preview.encounters %lld %lld %lld" = "記錄：%lld 筆 + %lld 筆 = %lld 筆";
+"person.merge.warning" = "此操作無法復原。";
+"person.merge.execute" = "合併";
+"person.merge.success" = "合併完成";
+
+// MARK: - LLM Settings
+"llm.connectionMode" = "連線方式";
+"llm.connectionMode.footer" = "選擇 AI 結構化的連線方式。使用自己的 API 金鑰時，請從相應的供應商取得。";
+"llm.mode.none" = "不使用 AI 結構化";
+"llm.mode.none.description" = "不自動結構化 OCR 文字";
+"llm.mode.akkurat" = "Akkurat 訂閱";
+"llm.mode.akkurat.description" = "使用 Akkurat 付費方案進行 AI 結構化";
+"llm.mode.selfApiKey" = "使用自己的 API 金鑰";
+"llm.mode.selfApiKey.description" = "使用您自己的 API 金鑰進行 AI 結構化";
+"llm.mode.notSupported" = "不支援";
+"llm.provider" = "AI 供應商";
+"llm.provider.needsApiKey" = "所選供應商需要設定 API 金鑰";
+"llm.provider.textOnly" = "僅支援文字（不支援圖片）";
+"llm.apiKey.title %@" = "%@ API 金鑰";
+"llm.apiKey.notSet" = "API 金鑰未設定";
+"llm.apiKey.settings" = "API 金鑰設定";
+"llm.apiKey.description" = "API 金鑰安全儲存在裝置鑰匙圈中，不會傳送到雲端（API 呼叫除外）。";
+"llm.apiKey.getKey" = "取得 API 金鑰";
+"llm.apiKey.test" = "測試連線";
+"llm.apiKey.delete" = "刪除 API 金鑰";
+"llm.apiKey.invalid" = "API 金鑰無效";
+"llm.error.imageNotSupported" = "所選供應商不支援圖片輸入";

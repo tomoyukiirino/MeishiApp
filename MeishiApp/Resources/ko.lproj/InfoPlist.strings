@@ -1,0 +1,11 @@
+/*
+  InfoPlist.strings
+  MeishiApp
+
+  한국어 권한 설명
+*/
+
+NSCameraUsageDescription = "카메라는 명함 스캔에 사용됩니다";
+NSPhotoLibraryUsageDescription = "사진 앨범은 명함 이미지와 얼굴 사진 선택에 사용됩니다";
+NSContactsUsageDescription = "명함 정보를 iPhone 연락처에 저장하는 데 사용됩니다";
+NSFaceIDUsageDescription = "Face ID는 앱 잠금 해제에 사용됩니다";

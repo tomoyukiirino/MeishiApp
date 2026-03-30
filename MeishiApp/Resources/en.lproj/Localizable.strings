@@ -1,0 +1,304 @@
+/*
+  Localizable.strings (English)
+  MeishiApp
+*/
+
+// MARK: - Common
+"common.save" = "Save";
+"common.cancel" = "Cancel";
+"common.delete" = "Delete";
+"common.edit" = "Edit";
+"common.done" = "Done";
+"common.close" = "Close";
+"common.add" = "Add";
+"common.search" = "Search";
+"common.confirm" = "Confirm";
+"common.yes" = "Yes";
+"common.no" = "No";
+"common.ok" = "OK";
+"common.retry" = "Retry";
+"common.skip" = "Skip";
+"common.next" = "Next";
+"common.back" = "Back";
+"common.select" = "Select";
+"common.loading" = "Loading...";
+"common.processing" = "Processing...";
+
+// MARK: - Person
+"person.name" = "Name";
+"person.nameReading" = "Reading";
+"person.company" = "Company";
+"person.title" = "Title";
+"person.department" = "Department";
+"person.memo" = "Notes";
+"person.list.title" = "Cards";
+"person.list.empty" = "No business cards yet";
+"person.list.empty.hint" = "Tap the button below to add a business card";
+"person.detail.title" = "Details";
+"person.detail.cardHistory" = "Card History";
+"person.detail.encounterHistory" = "Meeting History";
+"person.detail.exportToContacts" = "Save to Contacts";
+"person.detail.findPhotos" = "Find more photos of this person";
+"person.delete.confirm.title" = "Confirm Deletion";
+"person.delete.confirm.message" = "Delete all information for %@? This cannot be undone.";
+"person.sort.recent" = "Recently Added";
+"person.sort.name" = "By Name";
+"person.sort.company" = "By Company";
+
+// MARK: - Card
+"card.add" = "Add Card";
+"card.front" = "Front";
+"card.back" = "Back";
+"card.phone" = "Phone";
+"card.email" = "Email";
+"card.address" = "Address";
+"card.website" = "Website";
+"card.acquiredAt" = "Received";
+"card.memo" = "Notes";
+"card.delete.confirm.title" = "Delete Card";
+"card.delete.confirm.message" = "Delete this business card?";
+
+// MARK: - Encounter
+"encounter.add" = "Add Record";
+"encounter.eventName" = "Event";
+"encounter.eventName.placeholder" = "e.g. Annual Conference 2024";
+"encounter.date" = "Date";
+"encounter.location" = "Location";
+"encounter.location.placeholder" = "e.g. Convention Center";
+"encounter.memo" = "Notes";
+"encounter.memo.placeholder" = "Add notes...";
+"encounter.whereDidYouMeet" = "Meeting Details";
+"encounter.delete.confirm.title" = "Delete Record";
+"encounter.delete.confirm.message" = "Delete this record?";
+
+// MARK: - Capture
+"capture.title" = "Scan Card";
+"capture.instruction" = "Position the card within the frame";
+"capture.takePhoto" = "Capture";
+"capture.retake" = "Retake";
+"capture.usePhoto" = "Use This Photo";
+"capture.captureBack" = "Scan the back side too?";
+"capture.captureBack.yes" = "Scan Back";
+"capture.captureBack.no" = "Front Only";
+"capture.fromLibrary" = "Choose from Library";
+"capture.useCamera" = "Take Photo";
+"capture.selectSource" = "Add Business Card";
+"capture.selectSource.description" = "Take a photo or choose from your library";
+"capture.cameraUnavailable" = "Camera is not available on this device";
+"capture.cameraPermission.title" = "Camera Access";
+"capture.cameraPermission.message" = "Camera access is required to scan business cards. Please allow access in Settings.";
+"capture.photoPermission.title" = "Photo Access";
+"capture.photoPermission.message" = "Photo library access is required. Please allow access in Settings.";
+"capture.openSettings" = "Open Settings";
+"capture.rotate" = "Rotate";
+"capture.confirmOrientation" = "Continue with this orientation";
+"capture.orientationHint" = "If the card is not oriented correctly, tap the rotate button";
+
+// MARK: - OCR
+"ocr.processing" = "Reading text...";
+"ocr.complete" = "Reading complete";
+"ocr.failed" = "Failed to read text";
+"ocr.noTextFound" = "No text found";
+"ocr.extracted" = "Extracted Text";
+"ocr.structuring" = "Organizing information...";
+"ocr.aiStructuring" = "AI is structuring information...";
+
+// MARK: - Registration
+"registration.title" = "Verify Card Information";
+"registration.instruction" = "Review and correct the extracted information";
+"registration.required" = "Required";
+"registration.optional" = "Optional";
+"registration.nameOrCompanyRequired" = "Either name or company is required";
+"registration.addPhoneNumber" = "Add phone number";
+"registration.addEmail" = "Add email address";
+
+// MARK: - Duplicate Detection
+"duplicate.found.title" = "Existing Person Found";
+"duplicate.found.message" = "%@ is already registered.";
+"duplicate.addToExisting" = "Add to this person";
+"duplicate.registerAsNew" = "Register as new person";
+"duplicate.selectInfo.title" = "Select Information to Keep";
+"duplicate.selectInfo.message" = "Which information should be used? Both cards will be added.";
+"duplicate.existingInfo" = "Existing Information";
+"duplicate.newInfo" = "New Card Information";
+"duplicate.confirmAndSave" = "Save with this information";
+
+// MARK: - Face Photo
+"face.add" = "Add Face Photo";
+"face.change" = "Change Face Photo";
+"face.remove" = "Remove Face Photo";
+"face.select" = "Select Photo";
+"face.detecting" = "Detecting faces...";
+"face.selectFace" = "Tap the face of this person";
+"face.noFaceDetected" = "No faces detected";
+"face.confirm" = "Use this face photo?";
+"face.searchFromPhoto" = "Search from Photo";
+"face.useThisPhoto" = "Use This Photo";
+
+// MARK: - Settings
+"settings.title" = "Settings";
+"settings.general" = "General";
+"settings.security" = "Security";
+"settings.biometricLock" = "Biometric Lock";
+"settings.biometricLock.faceId" = "Lock with Face ID";
+"settings.biometricLock.touchId" = "Lock with Touch ID";
+"settings.biometricLock.description" = "Require authentication when opening the app";
+"settings.ocr" = "OCR Settings";
+"settings.ocrLanguages" = "Recognition Languages";
+"settings.ocrLanguages.description" = "Set language priority for card recognition";
+"settings.ai" = "AI Structuring";
+"settings.aiMode" = "AI Structuring Mode";
+"settings.aiMode.privacy" = "Privacy First";
+"settings.aiMode.privacy.description" = "Text only. Images stay on your device";
+"settings.aiMode.accuracy" = "Accuracy First";
+"settings.aiMode.accuracy.description" = "Card image is sent. Auto-deleted in 7 days";
+"settings.backup" = "Backup";
+"settings.backup.auto" = "Auto Backup";
+"settings.backup.manual" = "Create Backup Now";
+"settings.backup.restore" = "Restore from Backup";
+"settings.about" = "About";
+"settings.version" = "Version";
+"settings.privacyPolicy" = "Privacy Policy";
+"settings.termsOfService" = "Terms of Service";
+
+// MARK: - Backup
+"backup.creating" = "Creating backup...";
+"backup.created" = "Backup created";
+"backup.failed" = "Backup failed";
+"backup.restoring" = "Restoring data...";
+"backup.restored" = "Data restored";
+"backup.restoreFailed" = "Restore failed";
+"backup.selectFile" = "Select backup file";
+"backup.confirm.title" = "Confirm Restore";
+"backup.confirm.message" = "Current data will be overwritten. Continue?";
+"backup.icloud" = "iCloud Drive";
+"backup.icloud.enabled" = "Auto backup to iCloud Drive";
+
+// MARK: - Export
+"export.title" = "Export";
+"export.csv" = "CSV Format";
+"export.vcard" = "vCard Format";
+"export.all" = "All Data";
+"export.filtered" = "Filtered Data";
+"export.success" = "Export complete";
+"export.failed" = "Export failed";
+
+// MARK: - Tag
+"tag.add" = "Add Tag";
+"tag.create" = "Create New Tag";
+"tag.name" = "Tag Name";
+"tag.name.placeholder" = "e.g. Conference";
+"tag.filter" = "Filter by Tag";
+"tag.all" = "Show All";
+
+// MARK: - Error Messages
+"error.generic" = "An error occurred";
+"error.network" = "Network error";
+"error.apiKey" = "Invalid API key";
+"error.rateLimit" = "Rate limit reached. Please wait";
+"error.timeout" = "Request timed out";
+"error.saveData" = "Failed to save data";
+"error.loadData" = "Failed to load data";
+"error.deleteData" = "Failed to delete data";
+"error.cameraUnavailable" = "Camera not available";
+"error.photoLibraryUnavailable" = "Photo library not available";
+"error.contactSaveFailed" = "Failed to save contact";
+"error.contactAlreadyExists" = "A contact with this name already exists";
+
+// MARK: - Authentication
+"auth.required" = "Authentication Required";
+"auth.reason" = "Authenticate to access your business cards";
+"auth.failed" = "Authentication failed";
+"auth.cancelled" = "Authentication cancelled";
+"auth.notAvailable" = "Biometric authentication not available";
+"auth.passcode" = "Use Passcode";
+"auth.unlock" = "Unlock";
+
+// MARK: - Contact Export
+"contact.preview.title" = "Contact Preview";
+"contact.preview.message" = "The following will be added to iPhone Contacts";
+"contact.save" = "Save to Contacts";
+"contact.saved" = "Saved to Contacts";
+"contact.permission.title" = "Contacts Access";
+"contact.permission.message" = "Permission is required to save contacts. Please allow access in Settings.";
+
+// MARK: - AI Disclosure
+"ai.disclosure.title" = "About AI Structuring";
+"ai.disclosure.message" = "AI structuring sends card information to the AI provider's server.\n\n• Privacy First: Text only\n• Accuracy First: Image included\n\nData is not used for AI training and is auto-deleted within 7 days.";
+"ai.disclosure.understand" = "I Understand";
+"ai.disclosure.learnMore" = "Learn More";
+"ai.disclosure.what.title" = "What is AI Structuring?";
+"ai.disclosure.what.description" = "AI analyzes OCR text or card images to automatically extract name, company, and contact details.";
+"ai.disclosure.privacy.title" = "Privacy Protection";
+"ai.disclosure.privacy.description" = "Data is not used for AI training. It is auto-deleted within 7 days after processing.";
+"ai.disclosure.modes.title" = "Two Modes";
+"ai.disclosure.modes.description" = "Privacy First: Text only. Accuracy First: Image included for more accurate structuring.";
+"ai.disclosure.storage.title" = "Data Storage";
+"ai.disclosure.storage.description" = "Structured data is stored only on your device. Nothing is saved to any cloud.";
+
+// MARK: - Settings (Phase 2)
+"settings.aiStructuring" = "AI Structuring";
+"settings.aiStructuring.footer" = "AI structuring uses LLM APIs. Text or images may be sent depending on your settings.";
+"settings.aiDisclosure" = "About AI Usage";
+
+// MARK: - Tag Management
+"tag.management" = "Manage Tags";
+"tag.edit" = "Edit Tag";
+
+// MARK: - Backup (Phase 2)
+"backup.success" = "Backup complete";
+"backup.noBackups" = "No Backups";
+"backup.noBackups.description" = "No backups have been created yet. Tap 'Create Backup Now' to create one.";
+
+// MARK: - Card Rescan
+"card.rescan" = "Rescan";
+"card.rescanning" = "Rescanning...";
+"card.rescan.success" = "Rescan Complete";
+"card.rescan.success.message" = "Card information has been updated.";
+
+// MARK: - Primary Card
+"card.primary" = "Primary";
+"card.setAsPrimary" = "Set as Primary";
+"card.cannotDeletePrimary" = "Cannot delete the primary card";
+
+// MARK: - Person Merge
+"person.merge.button" = "Merge with another person";
+"person.merge.selectTarget" = "Select person to merge with";
+"person.merge.searchPlaceholder" = "Search by name or company";
+"person.merge.resultCount %lld" = "%lld results";
+"person.merge.noResults" = "No matching person found";
+"person.merge.noResults.description" = "Try different search terms";
+"person.merge.confirm.title" = "Confirm Merge";
+"person.merge.source" = "Merge From";
+"person.merge.target" = "Merge Into";
+"person.merge.selectName" = "Select Display Name";
+"person.merge.selectPhoto" = "Select Face Photo";
+"person.merge.preview" = "After Merge";
+"person.merge.preview.cards %lld %lld %lld" = "Cards: %lld + %lld = %lld";
+"person.merge.preview.encounters %lld %lld %lld" = "Records: %lld + %lld = %lld";
+"person.merge.warning" = "This action cannot be undone.";
+"person.merge.execute" = "Merge";
+"person.merge.success" = "Merge complete";
+
+// MARK: - LLM Settings
+"llm.connectionMode" = "Connection Mode";
+"llm.connectionMode.footer" = "Choose how to connect for AI structuring. To use your own API key, obtain one from your preferred provider.";
+"llm.mode.none" = "Don't use AI structuring";
+"llm.mode.none.description" = "No automatic structuring from OCR text";
+"llm.mode.akkurat" = "Akkurat Subscription";
+"llm.mode.akkurat.description" = "Use AI structuring with Akkurat's paid plan";
+"llm.mode.selfApiKey" = "Use Your Own API Key";
+"llm.mode.selfApiKey.description" = "Use your own API key for AI structuring";
+"llm.mode.notSupported" = "Not Supported";
+"llm.provider" = "AI Provider";
+"llm.provider.needsApiKey" = "An API key is required for the selected provider";
+"llm.provider.textOnly" = "Text only (images not supported)";
+"llm.apiKey.title %@" = "%@ API Key";
+"llm.apiKey.notSet" = "API key not set";
+"llm.apiKey.settings" = "API Key Settings";
+"llm.apiKey.description" = "Your API key is securely stored in the device Keychain. It is never sent to any cloud (except during API calls).";
+"llm.apiKey.getKey" = "Get API Key";
+"llm.apiKey.test" = "Test Connection";
+"llm.apiKey.delete" = "Delete API Key";
+"llm.apiKey.invalid" = "Invalid API key";
+"llm.error.imageNotSupported" = "The selected provider does not support image input";

@@ -1,0 +1,306 @@
+/*
+  Localizable.strings (Italian)
+  MeishiApp
+
+  Traduzione italiana - forma di cortesia (Lei)
+*/
+
+// MARK: - Common
+"common.save" = "Salva";
+"common.cancel" = "Annulla";
+"common.delete" = "Elimina";
+"common.edit" = "Modifica";
+"common.done" = "Fine";
+"common.close" = "Chiudi";
+"common.add" = "Aggiungi";
+"common.search" = "Cerca";
+"common.confirm" = "Conferma";
+"common.yes" = "Sì";
+"common.no" = "No";
+"common.ok" = "OK";
+"common.retry" = "Riprova";
+"common.skip" = "Salta";
+"common.next" = "Avanti";
+"common.back" = "Indietro";
+"common.select" = "Seleziona";
+"common.loading" = "Caricamento...";
+"common.processing" = "Elaborazione...";
+
+// MARK: - Person
+"person.name" = "Nome";
+"person.nameReading" = "Pronuncia";
+"person.company" = "Azienda";
+"person.title" = "Titolo";
+"person.department" = "Reparto";
+"person.memo" = "Note";
+"person.list.title" = "Biglietti";
+"person.list.empty" = "Nessun biglietto da visita";
+"person.list.empty.hint" = "Tocchi il pulsante in basso per aggiungere un biglietto";
+"person.detail.title" = "Dettagli";
+"person.detail.cardHistory" = "Cronologia biglietti";
+"person.detail.encounterHistory" = "Cronologia incontri";
+"person.detail.exportToContacts" = "Salva nei Contatti";
+"person.detail.findPhotos" = "Trova altre foto di questa persona";
+"person.delete.confirm.title" = "Conferma eliminazione";
+"person.delete.confirm.message" = "Eliminare tutte le informazioni di %@? Questa azione non può essere annullata.";
+"person.sort.recent" = "Aggiunti di recente";
+"person.sort.name" = "Per nome";
+"person.sort.company" = "Per azienda";
+
+// MARK: - Card
+"card.add" = "Aggiungi biglietto";
+"card.front" = "Fronte";
+"card.back" = "Retro";
+"card.phone" = "Telefono";
+"card.email" = "Email";
+"card.address" = "Indirizzo";
+"card.website" = "Sito web";
+"card.acquiredAt" = "Data ricezione";
+"card.memo" = "Note";
+"card.delete.confirm.title" = "Elimina biglietto";
+"card.delete.confirm.message" = "Eliminare questo biglietto da visita?";
+
+// MARK: - Encounter
+"encounter.add" = "Aggiungi registro";
+"encounter.eventName" = "Evento";
+"encounter.eventName.placeholder" = "Es. Congresso Medico 2024";
+"encounter.date" = "Data";
+"encounter.location" = "Luogo";
+"encounter.location.placeholder" = "Es. Centro Congressi";
+"encounter.memo" = "Note";
+"encounter.memo.placeholder" = "Inserisca le note...";
+"encounter.whereDidYouMeet" = "Dettagli incontro";
+"encounter.delete.confirm.title" = "Elimina registro";
+"encounter.delete.confirm.message" = "Eliminare questo registro?";
+
+// MARK: - Capture
+"capture.title" = "Scansiona biglietto";
+"capture.instruction" = "Posizioni il biglietto nel riquadro";
+"capture.takePhoto" = "Scatta";
+"capture.retake" = "Riprova";
+"capture.usePhoto" = "Usa questa foto";
+"capture.captureBack" = "Scansionare anche il retro?";
+"capture.captureBack.yes" = "Scansiona retro";
+"capture.captureBack.no" = "Solo fronte";
+"capture.fromLibrary" = "Scegli dalla libreria";
+"capture.useCamera" = "Scatta foto";
+"capture.selectSource" = "Aggiungi biglietto";
+"capture.selectSource.description" = "Scatti una foto o scelga dalla libreria";
+"capture.cameraUnavailable" = "La fotocamera non è disponibile su questo dispositivo";
+"capture.cameraPermission.title" = "Accesso fotocamera";
+"capture.cameraPermission.message" = "L'accesso alla fotocamera è necessario per scansionare i biglietti. Consenta l'accesso nelle Impostazioni.";
+"capture.photoPermission.title" = "Accesso foto";
+"capture.photoPermission.message" = "L'accesso alla libreria foto è necessario. Consenta l'accesso nelle Impostazioni.";
+"capture.openSettings" = "Apri Impostazioni";
+"capture.rotate" = "Ruota";
+"capture.confirmOrientation" = "Continua con questo orientamento";
+"capture.orientationHint" = "Se il biglietto non è orientato correttamente, tocchi il pulsante ruota";
+
+// MARK: - OCR
+"ocr.processing" = "Lettura testo...";
+"ocr.complete" = "Lettura completata";
+"ocr.failed" = "Lettura testo fallita";
+"ocr.noTextFound" = "Nessun testo trovato";
+"ocr.extracted" = "Testo estratto";
+"ocr.structuring" = "Organizzazione informazioni...";
+"ocr.aiStructuring" = "L'AI sta strutturando le informazioni...";
+
+// MARK: - Registration
+"registration.title" = "Verifica informazioni";
+"registration.instruction" = "Verifichi e corregga le informazioni estratte";
+"registration.required" = "Obbligatorio";
+"registration.optional" = "Facoltativo";
+"registration.nameOrCompanyRequired" = "È richiesto il nome o l'azienda";
+"registration.addPhoneNumber" = "Aggiungi numero di telefono";
+"registration.addEmail" = "Aggiungi indirizzo email";
+
+// MARK: - Duplicate Detection
+"duplicate.found.title" = "Persona esistente trovata";
+"duplicate.found.message" = "%@ è già registrato.";
+"duplicate.addToExisting" = "Aggiungi a questa persona";
+"duplicate.registerAsNew" = "Registra come nuova persona";
+"duplicate.selectInfo.title" = "Seleziona informazioni da mantenere";
+"duplicate.selectInfo.message" = "Quali informazioni usare? Entrambi i biglietti saranno aggiunti.";
+"duplicate.existingInfo" = "Informazioni esistenti";
+"duplicate.newInfo" = "Informazioni nuovo biglietto";
+"duplicate.confirmAndSave" = "Salva con queste informazioni";
+
+// MARK: - Face Photo
+"face.add" = "Aggiungi foto viso";
+"face.change" = "Cambia foto viso";
+"face.remove" = "Rimuovi foto viso";
+"face.select" = "Seleziona foto";
+"face.detecting" = "Rilevamento volti...";
+"face.selectFace" = "Tocchi il viso di questa persona";
+"face.noFaceDetected" = "Nessun volto rilevato";
+"face.confirm" = "Usare questa foto del viso?";
+"face.searchFromPhoto" = "Cerca dalla foto";
+"face.useThisPhoto" = "Usa questa foto";
+
+// MARK: - Settings
+"settings.title" = "Impostazioni";
+"settings.general" = "Generali";
+"settings.security" = "Sicurezza";
+"settings.biometricLock" = "Blocco biometrico";
+"settings.biometricLock.faceId" = "Blocca con Face ID";
+"settings.biometricLock.touchId" = "Blocca con Touch ID";
+"settings.biometricLock.description" = "Richiedi autenticazione all'apertura dell'app";
+"settings.ocr" = "Impostazioni OCR";
+"settings.ocrLanguages" = "Lingue di riconoscimento";
+"settings.ocrLanguages.description" = "Imposti la priorità delle lingue per il riconoscimento";
+"settings.ai" = "Strutturazione AI";
+"settings.aiMode" = "Modalità strutturazione AI";
+"settings.aiMode.privacy" = "Privacy prima";
+"settings.aiMode.privacy.description" = "Solo testo. Le immagini restano sul dispositivo";
+"settings.aiMode.accuracy" = "Precisione prima";
+"settings.aiMode.accuracy.description" = "L'immagine viene inviata. Eliminata automaticamente in 7 giorni";
+"settings.backup" = "Backup";
+"settings.backup.auto" = "Backup automatico";
+"settings.backup.manual" = "Crea backup ora";
+"settings.backup.restore" = "Ripristina da backup";
+"settings.about" = "Informazioni";
+"settings.version" = "Versione";
+"settings.privacyPolicy" = "Informativa sulla privacy";
+"settings.termsOfService" = "Termini di servizio";
+
+// MARK: - Backup
+"backup.creating" = "Creazione backup...";
+"backup.created" = "Backup creato";
+"backup.failed" = "Backup fallito";
+"backup.restoring" = "Ripristino dati...";
+"backup.restored" = "Dati ripristinati";
+"backup.restoreFailed" = "Ripristino fallito";
+"backup.selectFile" = "Seleziona file di backup";
+"backup.confirm.title" = "Conferma ripristino";
+"backup.confirm.message" = "I dati attuali saranno sovrascritti. Continuare?";
+"backup.icloud" = "iCloud Drive";
+"backup.icloud.enabled" = "Backup automatico su iCloud Drive";
+
+// MARK: - Export
+"export.title" = "Esporta";
+"export.csv" = "Formato CSV";
+"export.vcard" = "Formato vCard";
+"export.all" = "Tutti i dati";
+"export.filtered" = "Dati filtrati";
+"export.success" = "Esportazione completata";
+"export.failed" = "Esportazione fallita";
+
+// MARK: - Tag
+"tag.add" = "Aggiungi etichetta";
+"tag.create" = "Crea nuova etichetta";
+"tag.name" = "Nome etichetta";
+"tag.name.placeholder" = "Es. Congresso";
+"tag.filter" = "Filtra per etichetta";
+"tag.all" = "Mostra tutto";
+
+// MARK: - Error Messages
+"error.generic" = "Si è verificato un errore";
+"error.network" = "Errore di rete";
+"error.apiKey" = "Chiave API non valida";
+"error.rateLimit" = "Limite di richieste raggiunto. Attenda";
+"error.timeout" = "Richiesta scaduta";
+"error.saveData" = "Salvataggio dati fallito";
+"error.loadData" = "Caricamento dati fallito";
+"error.deleteData" = "Eliminazione dati fallita";
+"error.cameraUnavailable" = "Fotocamera non disponibile";
+"error.photoLibraryUnavailable" = "Libreria foto non disponibile";
+"error.contactSaveFailed" = "Salvataggio contatto fallito";
+"error.contactAlreadyExists" = "Un contatto con questo nome esiste già";
+
+// MARK: - Authentication
+"auth.required" = "Autenticazione richiesta";
+"auth.reason" = "Si autentichi per accedere ai Suoi biglietti da visita";
+"auth.failed" = "Autenticazione fallita";
+"auth.cancelled" = "Autenticazione annullata";
+"auth.notAvailable" = "Autenticazione biometrica non disponibile";
+"auth.passcode" = "Usa codice";
+"auth.unlock" = "Sblocca";
+
+// MARK: - Contact Export
+"contact.preview.title" = "Anteprima contatto";
+"contact.preview.message" = "Le seguenti informazioni saranno aggiunte ai Contatti iPhone";
+"contact.save" = "Salva nei Contatti";
+"contact.saved" = "Salvato nei Contatti";
+"contact.permission.title" = "Accesso Contatti";
+"contact.permission.message" = "È necessaria l'autorizzazione per salvare i contatti. Consenta l'accesso nelle Impostazioni.";
+
+// MARK: - AI Disclosure
+"ai.disclosure.title" = "Informazioni sulla strutturazione AI";
+"ai.disclosure.message" = "La strutturazione AI invia le informazioni del biglietto al server del fornitore AI.\n\n• Privacy prima: Solo testo\n• Precisione prima: Immagine inclusa\n\nI dati non vengono usati per l'addestramento AI e vengono eliminati automaticamente entro 7 giorni.";
+"ai.disclosure.understand" = "Ho capito";
+"ai.disclosure.learnMore" = "Scopri di più";
+"ai.disclosure.what.title" = "Cos'è la strutturazione AI?";
+"ai.disclosure.what.description" = "L'AI analizza il testo OCR o le immagini del biglietto per estrarre automaticamente nome, azienda e dettagli di contatto.";
+"ai.disclosure.privacy.title" = "Protezione privacy";
+"ai.disclosure.privacy.description" = "I dati non vengono usati per l'addestramento AI. Vengono eliminati automaticamente entro 7 giorni dall'elaborazione.";
+"ai.disclosure.modes.title" = "Due modalità";
+"ai.disclosure.modes.description" = "Privacy prima: Solo testo. Precisione prima: Immagine inclusa per una strutturazione più accurata.";
+"ai.disclosure.storage.title" = "Archiviazione dati";
+"ai.disclosure.storage.description" = "I dati strutturati sono salvati solo sul Suo dispositivo. Nulla viene salvato su cloud.";
+
+// MARK: - Settings (Phase 2)
+"settings.aiStructuring" = "Strutturazione AI";
+"settings.aiStructuring.footer" = "La strutturazione AI usa API LLM. Testo o immagini possono essere inviati in base alle impostazioni.";
+"settings.aiDisclosure" = "Informazioni sull'uso dell'AI";
+
+// MARK: - Tag Management
+"tag.management" = "Gestisci etichette";
+"tag.edit" = "Modifica etichetta";
+
+// MARK: - Backup (Phase 2)
+"backup.success" = "Backup completato";
+"backup.noBackups" = "Nessun backup";
+"backup.noBackups.description" = "Non sono stati ancora creati backup. Tocchi 'Crea backup ora' per crearne uno.";
+
+// MARK: - Card Rescan
+"card.rescan" = "Riscansiona";
+"card.rescanning" = "Riscansione...";
+"card.rescan.success" = "Riscansione completata";
+"card.rescan.success.message" = "Le informazioni del biglietto sono state aggiornate.";
+
+// MARK: - Primary Card
+"card.primary" = "Principale";
+"card.setAsPrimary" = "Imposta come principale";
+"card.cannotDeletePrimary" = "Impossibile eliminare il biglietto principale";
+
+// MARK: - Person Merge
+"person.merge.button" = "Unisci con un'altra persona";
+"person.merge.selectTarget" = "Seleziona persona da unire";
+"person.merge.searchPlaceholder" = "Cerca per nome o azienda";
+"person.merge.resultCount %lld" = "%lld risultati";
+"person.merge.noResults" = "Nessuna persona corrispondente trovata";
+"person.merge.noResults.description" = "Provi con altri termini di ricerca";
+"person.merge.confirm.title" = "Conferma unione";
+"person.merge.source" = "Unisci da";
+"person.merge.target" = "Unisci in";
+"person.merge.selectName" = "Seleziona nome da visualizzare";
+"person.merge.selectPhoto" = "Seleziona foto viso";
+"person.merge.preview" = "Dopo l'unione";
+"person.merge.preview.cards %lld %lld %lld" = "Biglietti: %lld + %lld = %lld";
+"person.merge.preview.encounters %lld %lld %lld" = "Registri: %lld + %lld = %lld";
+"person.merge.warning" = "Questa azione non può essere annullata.";
+"person.merge.execute" = "Unisci";
+"person.merge.success" = "Unione completata";
+
+// MARK: - LLM Settings
+"llm.connectionMode" = "Modalità connessione";
+"llm.connectionMode.footer" = "Scelga come connettersi per la strutturazione AI. Per usare la Sua chiave API, la ottenga dal fornitore preferito.";
+"llm.mode.none" = "Non usare strutturazione AI";
+"llm.mode.none.description" = "Nessuna strutturazione automatica dal testo OCR";
+"llm.mode.akkurat" = "Abbonamento Akkurat";
+"llm.mode.akkurat.description" = "Usa la strutturazione AI con il piano a pagamento Akkurat";
+"llm.mode.selfApiKey" = "Usa la Sua chiave API";
+"llm.mode.selfApiKey.description" = "Usa la Sua chiave API per la strutturazione AI";
+"llm.mode.notSupported" = "Non supportato";
+"llm.provider" = "Fornitore AI";
+"llm.provider.needsApiKey" = "È richiesta una chiave API per il fornitore selezionato";
+"llm.provider.textOnly" = "Solo testo (immagini non supportate)";
+"llm.apiKey.title %@" = "Chiave API %@";
+"llm.apiKey.notSet" = "Chiave API non impostata";
+"llm.apiKey.settings" = "Impostazioni chiave API";
+"llm.apiKey.description" = "La Sua chiave API è salvata in modo sicuro nel Portachiavi del dispositivo. Non viene mai inviata a cloud (eccetto durante le chiamate API).";
+"llm.apiKey.getKey" = "Ottieni chiave API";
+"llm.apiKey.test" = "Testa connessione";
+"llm.apiKey.delete" = "Elimina chiave API";
+"llm.apiKey.invalid" = "Chiave API non valida";
+"llm.error.imageNotSupported" = "Il fornitore selezionato non supporta l'input di immagini";

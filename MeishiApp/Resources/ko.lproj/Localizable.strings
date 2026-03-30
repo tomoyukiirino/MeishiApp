@@ -1,0 +1,304 @@
+/*
+  Localizable.strings (Korean)
+  MeishiApp
+*/
+
+// MARK: - Common
+"common.save" = "저장";
+"common.cancel" = "취소";
+"common.delete" = "삭제";
+"common.edit" = "편집";
+"common.done" = "완료";
+"common.close" = "닫기";
+"common.add" = "추가";
+"common.search" = "검색";
+"common.confirm" = "확인";
+"common.yes" = "예";
+"common.no" = "아니오";
+"common.ok" = "확인";
+"common.retry" = "다시 시도";
+"common.skip" = "건너뛰기";
+"common.next" = "다음";
+"common.back" = "뒤로";
+"common.select" = "선택";
+"common.loading" = "로딩 중...";
+"common.processing" = "처리 중...";
+
+// MARK: - Person
+"person.name" = "이름";
+"person.nameReading" = "발음";
+"person.company" = "회사";
+"person.title" = "직함";
+"person.department" = "부서";
+"person.memo" = "메모";
+"person.list.title" = "명함";
+"person.list.empty" = "명함이 없습니다";
+"person.list.empty.hint" = "아래 버튼을 눌러 명함을 추가하세요";
+"person.detail.title" = "상세 정보";
+"person.detail.cardHistory" = "명함 기록";
+"person.detail.encounterHistory" = "만남 기록";
+"person.detail.exportToContacts" = "연락처에 저장";
+"person.detail.findPhotos" = "이 사람의 다른 사진 찾기";
+"person.delete.confirm.title" = "삭제 확인";
+"person.delete.confirm.message" = "%@의 모든 정보를 삭제하시겠습니까? 이 작업은 취소할 수 없습니다.";
+"person.sort.recent" = "최근 추가순";
+"person.sort.name" = "이름순";
+"person.sort.company" = "회사순";
+
+// MARK: - Card
+"card.add" = "명함 추가";
+"card.front" = "앞면";
+"card.back" = "뒷면";
+"card.phone" = "전화";
+"card.email" = "이메일";
+"card.address" = "주소";
+"card.website" = "웹사이트";
+"card.acquiredAt" = "획득일";
+"card.memo" = "메모";
+"card.delete.confirm.title" = "명함 삭제";
+"card.delete.confirm.message" = "이 명함을 삭제하시겠습니까?";
+
+// MARK: - Encounter
+"encounter.add" = "기록 추가";
+"encounter.eventName" = "행사명";
+"encounter.eventName.placeholder" = "예: 2024년 대한의학회";
+"encounter.date" = "날짜";
+"encounter.location" = "장소";
+"encounter.location.placeholder" = "예: 국제컨벤션센터";
+"encounter.memo" = "메모";
+"encounter.memo.placeholder" = "메모 입력...";
+"encounter.whereDidYouMeet" = "만남 정보";
+"encounter.delete.confirm.title" = "기록 삭제";
+"encounter.delete.confirm.message" = "이 기록을 삭제하시겠습니까?";
+
+// MARK: - Capture
+"capture.title" = "명함 스캔";
+"capture.instruction" = "프레임 안에 명함을 위치시키세요";
+"capture.takePhoto" = "촬영";
+"capture.retake" = "다시 촬영";
+"capture.usePhoto" = "이 사진 사용";
+"capture.captureBack" = "뒷면도 촬영하시겠습니까?";
+"capture.captureBack.yes" = "뒷면 촬영";
+"capture.captureBack.no" = "앞면만";
+"capture.fromLibrary" = "앨범에서 선택";
+"capture.useCamera" = "사진 촬영";
+"capture.selectSource" = "명함 추가";
+"capture.selectSource.description" = "사진을 촬영하거나 앨범에서 선택하세요";
+"capture.cameraUnavailable" = "이 기기에서는 카메라를 사용할 수 없습니다";
+"capture.cameraPermission.title" = "카메라 접근 권한";
+"capture.cameraPermission.message" = "명함 스캔을 위해 카메라 접근이 필요합니다. 설정에서 허용해 주세요.";
+"capture.photoPermission.title" = "사진 접근 권한";
+"capture.photoPermission.message" = "사진 앨범 접근이 필요합니다. 설정에서 허용해 주세요.";
+"capture.openSettings" = "설정 열기";
+"capture.rotate" = "회전";
+"capture.confirmOrientation" = "이 방향으로 계속하기";
+"capture.orientationHint" = "명함 방향이 올바르지 않으면 회전 버튼을 눌러주세요";
+
+// MARK: - OCR
+"ocr.processing" = "텍스트 인식 중...";
+"ocr.complete" = "인식 완료";
+"ocr.failed" = "텍스트 인식 실패";
+"ocr.noTextFound" = "텍스트를 찾을 수 없습니다";
+"ocr.extracted" = "인식 결과";
+"ocr.structuring" = "정보 정리 중...";
+"ocr.aiStructuring" = "AI가 정보를 구조화하는 중...";
+
+// MARK: - Registration
+"registration.title" = "명함 정보 확인";
+"registration.instruction" = "인식된 정보를 확인하고 수정하세요";
+"registration.required" = "필수";
+"registration.optional" = "선택";
+"registration.nameOrCompanyRequired" = "이름 또는 회사 중 하나는 필수입니다";
+"registration.addPhoneNumber" = "전화번호 추가";
+"registration.addEmail" = "이메일 주소 추가";
+
+// MARK: - Duplicate Detection
+"duplicate.found.title" = "기존 연락처 발견";
+"duplicate.found.message" = "%@이(가) 이미 등록되어 있습니다.";
+"duplicate.addToExisting" = "이 사람에게 추가";
+"duplicate.registerAsNew" = "새 연락처로 등록";
+"duplicate.selectInfo.title" = "유지할 정보 선택";
+"duplicate.selectInfo.message" = "어떤 정보를 사용하시겠습니까? 두 명함 모두 추가됩니다.";
+"duplicate.existingInfo" = "기존 정보";
+"duplicate.newInfo" = "새 명함 정보";
+"duplicate.confirmAndSave" = "이 정보로 저장";
+
+// MARK: - Face Photo
+"face.add" = "얼굴 사진 추가";
+"face.change" = "얼굴 사진 변경";
+"face.remove" = "얼굴 사진 삭제";
+"face.select" = "사진 선택";
+"face.detecting" = "얼굴 인식 중...";
+"face.selectFace" = "이 사람의 얼굴을 선택하세요";
+"face.noFaceDetected" = "얼굴을 찾을 수 없습니다";
+"face.confirm" = "이 얼굴 사진을 사용하시겠습니까?";
+"face.searchFromPhoto" = "사진에서 검색";
+"face.useThisPhoto" = "이 사진 사용";
+
+// MARK: - Settings
+"settings.title" = "설정";
+"settings.general" = "일반";
+"settings.security" = "보안";
+"settings.biometricLock" = "생체 인식 잠금";
+"settings.biometricLock.faceId" = "Face ID 잠금";
+"settings.biometricLock.touchId" = "Touch ID 잠금";
+"settings.biometricLock.description" = "앱을 열 때 인증이 필요합니다";
+"settings.ocr" = "OCR 설정";
+"settings.ocrLanguages" = "인식 언어";
+"settings.ocrLanguages.description" = "명함 인식 언어 우선순위 설정";
+"settings.ai" = "AI 구조화";
+"settings.aiMode" = "AI 구조화 모드";
+"settings.aiMode.privacy" = "개인정보 우선";
+"settings.aiMode.privacy.description" = "텍스트만 전송. 이미지는 기기에 보관";
+"settings.aiMode.accuracy" = "정확도 우선";
+"settings.aiMode.accuracy.description" = "명함 이미지 전송. 7일 후 자동 삭제";
+"settings.backup" = "백업";
+"settings.backup.auto" = "자동 백업";
+"settings.backup.manual" = "지금 백업 생성";
+"settings.backup.restore" = "백업에서 복원";
+"settings.about" = "정보";
+"settings.version" = "버전";
+"settings.privacyPolicy" = "개인정보처리방침";
+"settings.termsOfService" = "이용약관";
+
+// MARK: - Backup
+"backup.creating" = "백업 생성 중...";
+"backup.created" = "백업이 생성되었습니다";
+"backup.failed" = "백업 생성 실패";
+"backup.restoring" = "데이터 복원 중...";
+"backup.restored" = "데이터가 복원되었습니다";
+"backup.restoreFailed" = "데이터 복원 실패";
+"backup.selectFile" = "백업 파일 선택";
+"backup.confirm.title" = "복원 확인";
+"backup.confirm.message" = "현재 데이터를 덮어씁니다. 계속하시겠습니까?";
+"backup.icloud" = "iCloud Drive";
+"backup.icloud.enabled" = "iCloud Drive에 자동 백업";
+
+// MARK: - Export
+"export.title" = "내보내기";
+"export.csv" = "CSV 형식";
+"export.vcard" = "vCard 형식";
+"export.all" = "전체 데이터";
+"export.filtered" = "필터된 데이터";
+"export.success" = "내보내기 완료";
+"export.failed" = "내보내기 실패";
+
+// MARK: - Tag
+"tag.add" = "태그 추가";
+"tag.create" = "새 태그 만들기";
+"tag.name" = "태그 이름";
+"tag.name.placeholder" = "예: 학술대회";
+"tag.filter" = "태그로 필터";
+"tag.all" = "전체 보기";
+
+// MARK: - Error Messages
+"error.generic" = "오류가 발생했습니다";
+"error.network" = "네트워크 오류";
+"error.apiKey" = "API 키가 유효하지 않습니다";
+"error.rateLimit" = "요청 한도에 도달했습니다. 잠시 후 다시 시도해 주세요";
+"error.timeout" = "요청 시간이 초과되었습니다";
+"error.saveData" = "데이터 저장 실패";
+"error.loadData" = "데이터 로드 실패";
+"error.deleteData" = "데이터 삭제 실패";
+"error.cameraUnavailable" = "카메라를 사용할 수 없습니다";
+"error.photoLibraryUnavailable" = "사진 앨범을 사용할 수 없습니다";
+"error.contactSaveFailed" = "연락처 저장 실패";
+"error.contactAlreadyExists" = "같은 이름의 연락처가 이미 있습니다";
+
+// MARK: - Authentication
+"auth.required" = "인증 필요";
+"auth.reason" = "명함 데이터에 접근하려면 인증이 필요합니다";
+"auth.failed" = "인증 실패";
+"auth.cancelled" = "인증이 취소되었습니다";
+"auth.notAvailable" = "생체 인식을 사용할 수 없습니다";
+"auth.passcode" = "암호 사용";
+"auth.unlock" = "잠금 해제";
+
+// MARK: - Contact Export
+"contact.preview.title" = "연락처 미리보기";
+"contact.preview.message" = "다음 정보가 iPhone 연락처에 추가됩니다";
+"contact.save" = "연락처에 저장";
+"contact.saved" = "연락처에 저장되었습니다";
+"contact.permission.title" = "연락처 접근 권한";
+"contact.permission.message" = "연락처 저장을 위해 권한이 필요합니다. 설정에서 허용해 주세요.";
+
+// MARK: - AI Disclosure
+"ai.disclosure.title" = "AI 구조화 안내";
+"ai.disclosure.message" = "AI 구조화는 명함 정보를 AI 서비스 제공업체의 서버로 전송합니다.\n\n• 개인정보 우선: 텍스트만 전송\n• 정확도 우선: 이미지 포함\n\n전송된 데이터는 AI 학습에 사용되지 않으며 7일 이내에 자동 삭제됩니다.";
+"ai.disclosure.understand" = "이해했습니다";
+"ai.disclosure.learnMore" = "자세히 보기";
+"ai.disclosure.what.title" = "AI 구조화란?";
+"ai.disclosure.what.description" = "AI가 OCR 텍스트 또는 명함 이미지를 분석하여 이름, 회사, 연락처 등의 정보를 자동으로 추출합니다.";
+"ai.disclosure.privacy.title" = "개인정보 보호";
+"ai.disclosure.privacy.description" = "데이터는 AI 학습에 사용되지 않습니다. 처리 후 7일 이내에 자동 삭제됩니다.";
+"ai.disclosure.modes.title" = "두 가지 모드";
+"ai.disclosure.modes.description" = "개인정보 우선: 텍스트만 전송. 정확도 우선: 더 정확한 구조화를 위해 이미지 포함.";
+"ai.disclosure.storage.title" = "데이터 저장";
+"ai.disclosure.storage.description" = "구조화된 데이터는 사용자의 기기에만 저장됩니다. 클라우드에는 저장되지 않습니다.";
+
+// MARK: - Settings (Phase 2)
+"settings.aiStructuring" = "AI 구조화";
+"settings.aiStructuring.footer" = "AI 구조화는 LLM API를 사용합니다. 설정에 따라 텍스트 또는 이미지가 전송될 수 있습니다.";
+"settings.aiDisclosure" = "AI 사용 안내";
+
+// MARK: - Tag Management
+"tag.management" = "태그 관리";
+"tag.edit" = "태그 편집";
+
+// MARK: - Backup (Phase 2)
+"backup.success" = "백업 완료";
+"backup.noBackups" = "백업 없음";
+"backup.noBackups.description" = "아직 백업이 없습니다. '지금 백업 생성'을 눌러 백업을 만드세요.";
+
+// MARK: - Card Rescan
+"card.rescan" = "다시 스캔";
+"card.rescanning" = "다시 스캔 중...";
+"card.rescan.success" = "다시 스캔 완료";
+"card.rescan.success.message" = "명함 정보가 업데이트되었습니다.";
+
+// MARK: - Primary Card
+"card.primary" = "기본 명함";
+"card.setAsPrimary" = "기본 명함으로 설정";
+"card.cannotDeletePrimary" = "기본 명함은 삭제할 수 없습니다";
+
+// MARK: - Person Merge
+"person.merge.button" = "다른 사람과 병합";
+"person.merge.selectTarget" = "병합할 대상 선택";
+"person.merge.searchPlaceholder" = "이름 또는 회사로 검색";
+"person.merge.resultCount %lld" = "%lld개 결과";
+"person.merge.noResults" = "일치하는 사람을 찾을 수 없습니다";
+"person.merge.noResults.description" = "다른 검색어를 시도해 보세요";
+"person.merge.confirm.title" = "병합 확인";
+"person.merge.source" = "병합 원본";
+"person.merge.target" = "병합 대상";
+"person.merge.selectName" = "표시 이름 선택";
+"person.merge.selectPhoto" = "얼굴 사진 선택";
+"person.merge.preview" = "병합 후";
+"person.merge.preview.cards %lld %lld %lld" = "명함: %lld장 + %lld장 = %lld장";
+"person.merge.preview.encounters %lld %lld %lld" = "기록: %lld개 + %lld개 = %lld개";
+"person.merge.warning" = "이 작업은 취소할 수 없습니다.";
+"person.merge.execute" = "병합";
+"person.merge.success" = "병합 완료";
+
+// MARK: - LLM Settings
+"llm.connectionMode" = "연결 방식";
+"llm.connectionMode.footer" = "AI 구조화 연결 방식을 선택하세요. 자체 API 키를 사용하려면 해당 제공업체에서 발급받으세요.";
+"llm.mode.none" = "AI 구조화 사용 안 함";
+"llm.mode.none.description" = "OCR 텍스트 자동 구조화 없음";
+"llm.mode.akkurat" = "Akkurat 구독";
+"llm.mode.akkurat.description" = "Akkurat 유료 플랜으로 AI 구조화 사용";
+"llm.mode.selfApiKey" = "자체 API 키 사용";
+"llm.mode.selfApiKey.description" = "자체 API 키로 AI 구조화 사용";
+"llm.mode.notSupported" = "지원되지 않음";
+"llm.provider" = "AI 제공업체";
+"llm.provider.needsApiKey" = "선택한 제공업체에 API 키가 필요합니다";
+"llm.provider.textOnly" = "텍스트만 지원 (이미지 미지원)";
+"llm.apiKey.title %@" = "%@ API 키";
+"llm.apiKey.notSet" = "API 키가 설정되지 않음";
+"llm.apiKey.settings" = "API 키 설정";
+"llm.apiKey.description" = "API 키는 기기 키체인에 안전하게 저장됩니다. 클라우드로 전송되지 않습니다 (API 호출 제외).";
+"llm.apiKey.getKey" = "API 키 받기";
+"llm.apiKey.test" = "연결 테스트";
+"llm.apiKey.delete" = "API 키 삭제";
+"llm.apiKey.invalid" = "API 키가 유효하지 않습니다";
+"llm.error.imageNotSupported" = "선택한 제공업체는 이미지 입력을 지원하지 않습니다";

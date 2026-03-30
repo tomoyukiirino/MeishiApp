@@ -1,0 +1,11 @@
+/*
+  InfoPlist.strings
+  MeishiApp
+
+  English localization for permission descriptions
+*/
+
+NSCameraUsageDescription = "Camera is used to scan business cards";
+NSPhotoLibraryUsageDescription = "Photo library is used to select card images and face photos";
+NSContactsUsageDescription = "Used to save business card information to iPhone Contacts";
+NSFaceIDUsageDescription = "Face ID is used to unlock the app";

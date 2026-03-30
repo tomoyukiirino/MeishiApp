@@ -1,0 +1,306 @@
+/*
+  Localizable.strings
+  MeishiApp
+
+  Application de gestion de cartes de visite - Localisation française
+*/
+
+// MARK: - Common
+"common.save" = "Enregistrer";
+"common.cancel" = "Annuler";
+"common.delete" = "Supprimer";
+"common.edit" = "Modifier";
+"common.done" = "Terminé";
+"common.close" = "Fermer";
+"common.add" = "Ajouter";
+"common.search" = "Rechercher";
+"common.confirm" = "Confirmer";
+"common.yes" = "Oui";
+"common.no" = "Non";
+"common.ok" = "OK";
+"common.retry" = "Réessayer";
+"common.skip" = "Ignorer";
+"common.next" = "Suivant";
+"common.back" = "Retour";
+"common.select" = "Sélectionner";
+"common.loading" = "Chargement...";
+"common.processing" = "Traitement en cours...";
+
+// MARK: - Person
+"person.name" = "Nom";
+"person.nameReading" = "Prononciation";
+"person.company" = "Entreprise";
+"person.title" = "Fonction";
+"person.department" = "Département";
+"person.memo" = "Note";
+"person.list.title" = "Cartes de visite";
+"person.list.empty" = "Aucune carte de visite pour le moment";
+"person.list.empty.hint" = "Appuyez sur le bouton en bas à droite pour ajouter une carte de visite";
+"person.detail.title" = "Détails";
+"person.detail.cardHistory" = "Historique des cartes";
+"person.detail.encounterHistory" = "Rencontres";
+"person.detail.exportToContacts" = "Enregistrer dans les contacts";
+"person.detail.findPhotos" = "Voir plus de photos de cette personne";
+"person.delete.confirm.title" = "Confirmer la suppression";
+"person.delete.confirm.message" = "Voulez-vous vraiment supprimer toutes les informations de %@ ? Cette action est irréversible.";
+"person.sort.recent" = "Plus récent";
+"person.sort.name" = "Par nom";
+"person.sort.company" = "Par entreprise";
+
+// MARK: - Card (BusinessCard)
+"card.add" = "Ajouter une carte de visite";
+"card.front" = "Recto";
+"card.back" = "Verso";
+"card.phone" = "Téléphone";
+"card.email" = "Adresse e-mail";
+"card.address" = "Adresse";
+"card.website" = "Site web";
+"card.acquiredAt" = "Reçue le";
+"card.memo" = "Note";
+"card.delete.confirm.title" = "Supprimer la carte";
+"card.delete.confirm.message" = "Voulez-vous vraiment supprimer cette carte de visite ?";
+
+// MARK: - Encounter
+"encounter.add" = "Ajouter une rencontre";
+"encounter.eventName" = "Événement";
+"encounter.eventName.placeholder" = "Ex. : Congrès médical 2024";
+"encounter.date" = "Date et heure";
+"encounter.location" = "Lieu";
+"encounter.location.placeholder" = "Ex. : Palais des Congrès";
+"encounter.memo" = "Note";
+"encounter.memo.placeholder" = "Saisir une note...";
+"encounter.whereDidYouMeet" = "Détails de la rencontre";
+"encounter.delete.confirm.title" = "Supprimer la rencontre";
+"encounter.delete.confirm.message" = "Voulez-vous vraiment supprimer cette rencontre ?";
+
+// MARK: - Capture
+"capture.title" = "Scanner une carte de visite";
+"capture.instruction" = "Positionnez la carte de visite dans le cadre";
+"capture.takePhoto" = "Capturer";
+"capture.retake" = "Reprendre";
+"capture.usePhoto" = "Utiliser cette photo";
+"capture.captureBack" = "Voulez-vous aussi scanner le verso ?";
+"capture.captureBack.yes" = "Scanner le verso";
+"capture.captureBack.no" = "Recto uniquement";
+"capture.fromLibrary" = "Choisir dans la photothèque";
+"capture.useCamera" = "Prendre avec l'appareil photo";
+"capture.selectSource" = "Ajouter une carte de visite";
+"capture.selectSource.description" = "Scannez avec l'appareil photo ou sélectionnez une image de la photothèque";
+"capture.cameraUnavailable" = "L'appareil photo n'est pas disponible sur cet appareil";
+"capture.cameraPermission.title" = "Accès à l'appareil photo";
+"capture.cameraPermission.message" = "L'accès à l'appareil photo est nécessaire pour scanner les cartes de visite. Veuillez autoriser l'accès dans les réglages.";
+"capture.photoPermission.title" = "Accès aux photos";
+"capture.photoPermission.message" = "L'accès à la photothèque est nécessaire pour sélectionner des photos. Veuillez autoriser l'accès dans les réglages.";
+"capture.openSettings" = "Ouvrir les réglages";
+"capture.rotate" = "Pivoter";
+"capture.confirmOrientation" = "Continuer avec cette orientation";
+"capture.orientationHint" = "Si la carte de visite n'est pas bien orientée, appuyez sur le bouton pivoter";
+
+// MARK: - OCR
+"ocr.processing" = "Reconnaissance du texte...";
+"ocr.complete" = "Reconnaissance terminée";
+"ocr.failed" = "Échec de la reconnaissance du texte";
+"ocr.noTextFound" = "Aucun texte trouvé";
+"ocr.extracted" = "Texte extrait";
+"ocr.structuring" = "Organisation des informations...";
+"ocr.aiStructuring" = "L'IA structure les informations...";
+
+// MARK: - Registration
+"registration.title" = "Vérifier la carte de visite";
+"registration.instruction" = "Veuillez vérifier et corriger les informations reconnues";
+"registration.required" = "Obligatoire";
+"registration.optional" = "Facultatif";
+"registration.nameOrCompanyRequired" = "Le nom ou l'entreprise est obligatoire";
+"registration.addPhoneNumber" = "Ajouter un numéro de téléphone";
+"registration.addEmail" = "Ajouter une adresse e-mail";
+
+// MARK: - Duplicate Detection
+"duplicate.found.title" = "Personne déjà existante";
+"duplicate.found.message" = "%@ est déjà enregistré(e).";
+"duplicate.addToExisting" = "Ajouter à cette personne";
+"duplicate.registerAsNew" = "Enregistrer comme nouvelle personne";
+"duplicate.selectInfo.title" = "Sélectionner les informations";
+"duplicate.selectInfo.message" = "Quelles informations souhaitez-vous utiliser pour cette personne ? Les deux cartes de visite seront ajoutées.";
+"duplicate.existingInfo" = "Informations existantes";
+"duplicate.newInfo" = "Nouvelles informations";
+"duplicate.confirmAndSave" = "Enregistrer avec ces informations";
+
+// MARK: - Face Photo
+"face.add" = "Ajouter une photo";
+"face.change" = "Changer la photo";
+"face.remove" = "Supprimer la photo";
+"face.select" = "Sélectionner une photo";
+"face.detecting" = "Détection du visage...";
+"face.selectFace" = "Appuyez sur le visage de cette personne";
+"face.noFaceDetected" = "Aucun visage détecté";
+"face.confirm" = "Utiliser cette photo ?";
+"face.searchFromPhoto" = "Rechercher à partir de la photo";
+"face.useThisPhoto" = "Enregistrer cette photo";
+
+// MARK: - Settings
+"settings.title" = "Réglages";
+"settings.general" = "Général";
+"settings.security" = "Sécurité";
+"settings.biometricLock" = "Verrouillage biométrique";
+"settings.biometricLock.faceId" = "Verrouiller avec Face ID";
+"settings.biometricLock.touchId" = "Verrouiller avec Touch ID";
+"settings.biometricLock.description" = "Authentification requise à l'ouverture de l'app";
+"settings.ocr" = "Réglages OCR";
+"settings.ocrLanguages" = "Langues de reconnaissance";
+"settings.ocrLanguages.description" = "Définir la priorité des langues pour la reconnaissance des cartes de visite";
+"settings.ai" = "Structuration IA";
+"settings.aiMode" = "Mode de structuration IA";
+"settings.aiMode.privacy" = "Priorité confidentialité";
+"settings.aiMode.privacy.description" = "Seul le texte est envoyé. Les images restent sur l'appareil";
+"settings.aiMode.accuracy" = "Priorité précision";
+"settings.aiMode.accuracy.description" = "Les images des cartes sont envoyées. Suppression automatique après 7 jours";
+"settings.backup" = "Sauvegarde";
+"settings.backup.auto" = "Sauvegarde automatique";
+"settings.backup.manual" = "Sauvegarder maintenant";
+"settings.backup.restore" = "Restaurer depuis une sauvegarde";
+"settings.about" = "À propos de cette app";
+"settings.version" = "Version";
+"settings.privacyPolicy" = "Politique de confidentialité";
+"settings.termsOfService" = "Conditions d'utilisation";
+
+// MARK: - Backup
+"backup.creating" = "Création de la sauvegarde...";
+"backup.created" = "Sauvegarde créée";
+"backup.failed" = "Échec de la sauvegarde";
+"backup.restoring" = "Restauration des données...";
+"backup.restored" = "Données restaurées";
+"backup.restoreFailed" = "Échec de la restauration";
+"backup.selectFile" = "Sélectionner le fichier de sauvegarde";
+"backup.confirm.title" = "Confirmer la restauration";
+"backup.confirm.message" = "Les données actuelles seront écrasées. Continuer ?";
+"backup.icloud" = "iCloud Drive";
+"backup.icloud.enabled" = "Sauvegarde automatique sur iCloud Drive";
+
+// MARK: - Export
+"export.title" = "Exporter";
+"export.csv" = "Format CSV";
+"export.vcard" = "Format vCard";
+"export.all" = "Toutes les données";
+"export.filtered" = "Données filtrées";
+"export.success" = "Exportation terminée";
+"export.failed" = "Échec de l'exportation";
+
+// MARK: - Tag
+"tag.add" = "Ajouter un tag";
+"tag.create" = "Créer un nouveau tag";
+"tag.name" = "Nom du tag";
+"tag.name.placeholder" = "Ex. : Conférence";
+"tag.filter" = "Filtrer par tag";
+"tag.all" = "Tout afficher";
+
+// MARK: - Error Messages
+"error.generic" = "Une erreur s'est produite";
+"error.network" = "Erreur réseau";
+"error.apiKey" = "Clé API invalide";
+"error.rateLimit" = "Limite de requêtes atteinte. Veuillez patienter";
+"error.timeout" = "Délai d'attente dépassé";
+"error.saveData" = "Impossible d'enregistrer les données";
+"error.loadData" = "Impossible de charger les données";
+"error.deleteData" = "Impossible de supprimer les données";
+"error.cameraUnavailable" = "Appareil photo non disponible";
+"error.photoLibraryUnavailable" = "Photothèque non disponible";
+"error.contactSaveFailed" = "Impossible d'enregistrer le contact";
+"error.contactAlreadyExists" = "Un contact avec ce nom existe déjà";
+
+// MARK: - Authentication
+"auth.required" = "Authentification requise";
+"auth.reason" = "Veuillez vous authentifier pour accéder aux données des cartes de visite";
+"auth.failed" = "Échec de l'authentification";
+"auth.cancelled" = "Authentification annulée";
+"auth.notAvailable" = "Authentification biométrique non disponible";
+"auth.passcode" = "S'authentifier avec le code";
+"auth.unlock" = "Déverrouiller";
+
+// MARK: - Contact Export
+"contact.preview.title" = "Aperçu du contact";
+"contact.preview.message" = "Les informations suivantes seront ajoutées aux contacts iPhone";
+"contact.save" = "Enregistrer dans les contacts";
+"contact.saved" = "Enregistré dans les contacts";
+"contact.permission.title" = "Accès aux contacts";
+"contact.permission.message" = "L'accès aux contacts est nécessaire pour enregistrer. Veuillez autoriser l'accès dans les réglages.";
+
+// MARK: - AI Disclosure
+"ai.disclosure.title" = "À propos de la structuration IA";
+"ai.disclosure.message" = "Lors de l'utilisation de la structuration IA, les informations des cartes de visite sont envoyées aux serveurs d'Anthropic.\n\n• Mode confidentialité : seul le texte est envoyé\n• Mode précision : les images sont aussi envoyées\n\nLes données envoyées ne sont pas utilisées pour l'entraînement de l'IA et sont automatiquement supprimées dans les 7 jours.";
+"ai.disclosure.understand" = "J'ai compris";
+"ai.disclosure.learnMore" = "En savoir plus";
+"ai.disclosure.what.title" = "Qu'est-ce que la structuration IA ?";
+"ai.disclosure.what.description" = "L'IA analyse le texte OCR ou les images des cartes de visite et structure automatiquement le nom, l'entreprise, les coordonnées, etc.";
+"ai.disclosure.privacy.title" = "Protection de la vie privée";
+"ai.disclosure.privacy.description" = "Les données envoyées ne sont pas utilisées pour l'entraînement de l'IA. Elles sont automatiquement supprimées dans les 7 jours suivant le traitement.";
+"ai.disclosure.modes.title" = "Deux modes";
+"ai.disclosure.modes.description" = "Priorité confidentialité : seul le texte est envoyé. Priorité précision : les images sont aussi envoyées pour une structuration plus précise.";
+"ai.disclosure.storage.title" = "Stockage des données";
+"ai.disclosure.storage.description" = "Les données structurées sont stockées uniquement sur votre appareil. Elles ne sont jamais stockées dans le cloud.";
+
+// MARK: - Settings (Phase 2 additions)
+"settings.aiStructuring" = "Structuration IA";
+"settings.aiStructuring.footer" = "La structuration IA utilise l'API Claude. Selon les réglages, du texte ou des images sont envoyés au serveur.";
+"settings.aiDisclosure" = "À propos de l'utilisation de l'IA";
+
+// MARK: - Tag Management
+"tag.management" = "Gestion des tags";
+"tag.edit" = "Modifier le tag";
+
+// MARK: - Backup (Phase 2 additions)
+"backup.success" = "Sauvegarde terminée";
+"backup.noBackups" = "Aucune sauvegarde";
+"backup.noBackups.description" = "Aucune sauvegarde n'a encore été créée. Appuyez sur « Sauvegarder maintenant » pour créer une sauvegarde.";
+
+// MARK: - Card Rescan
+"card.rescan" = "Rescanner";
+"card.rescanning" = "Nouveau scan en cours...";
+"card.rescan.success" = "Nouveau scan terminé";
+"card.rescan.success.message" = "Les informations de la carte de visite ont été mises à jour.";
+
+// MARK: - Primary Card
+"card.primary" = "Principale";
+"card.setAsPrimary" = "Définir comme principale";
+"card.cannotDeletePrimary" = "Impossible de supprimer la carte principale";
+
+// MARK: - Person Merge
+"person.merge.button" = "Fusionner cette personne avec une autre";
+"person.merge.selectTarget" = "Sélectionner la personne cible";
+"person.merge.searchPlaceholder" = "Rechercher par nom ou entreprise";
+"person.merge.resultCount %lld" = "%lld candidats";
+"person.merge.noResults" = "Aucune personne correspondante trouvée";
+"person.merge.noResults.description" = "Veuillez modifier les critères de recherche";
+"person.merge.confirm.title" = "Confirmer la fusion";
+"person.merge.source" = "Source";
+"person.merge.target" = "Cible";
+"person.merge.selectName" = "Sélectionner le nom affiché";
+"person.merge.selectPhoto" = "Sélectionner la photo";
+"person.merge.preview" = "Après fusion";
+"person.merge.preview.cards %lld %lld %lld" = "Cartes : %lld + %lld = %lld";
+"person.merge.preview.encounters %lld %lld %lld" = "Rencontres : %lld + %lld = %lld";
+"person.merge.warning" = "Cette action est irréversible.";
+"person.merge.execute" = "Fusionner";
+"person.merge.success" = "Fusion terminée";
+
+// MARK: - LLM Settings
+"llm.connectionMode" = "Mode de connexion";
+"llm.connectionMode.footer" = "Choisissez le mode de connexion pour la structuration IA. Si vous utilisez votre propre clé API, obtenez-la auprès du fournisseur concerné.";
+"llm.mode.none" = "Ne pas utiliser la structuration IA";
+"llm.mode.none.description" = "Le texte OCR n'est pas automatiquement structuré";
+"llm.mode.akkurat" = "Abonnement Akkurat";
+"llm.mode.akkurat.description" = "Structuration IA via l'abonnement premium Akkurat";
+"llm.mode.selfApiKey" = "Utiliser votre propre clé API";
+"llm.mode.selfApiKey.description" = "Structuration IA avec votre propre clé API";
+"llm.mode.notSupported" = "Non pris en charge";
+"llm.provider" = "Fournisseur IA";
+"llm.provider.needsApiKey" = "Le fournisseur sélectionné nécessite une clé API";
+"llm.provider.textOnly" = "Texte uniquement (pas de prise en charge des images)";
+"llm.apiKey.title %@" = "Clé API %@";
+"llm.apiKey.notSet" = "Clé API non définie";
+"llm.apiKey.settings" = "Paramètres de la clé API";
+"llm.apiKey.description" = "Votre clé API est stockée en toute sécurité dans le trousseau de l'appareil. Elle n'est jamais envoyée vers le cloud (sauf lors des appels API).";
+"llm.apiKey.getKey" = "Obtenir une clé API";
+"llm.apiKey.test" = "Tester la connexion";
+"llm.apiKey.delete" = "Supprimer la clé API";
+"llm.apiKey.invalid" = "Clé API invalide";
+"llm.error.imageNotSupported" = "Le fournisseur sélectionné ne prend pas en charge l'entrée d'images";

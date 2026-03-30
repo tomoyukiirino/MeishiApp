@@ -1,0 +1,304 @@
+/*
+  Localizable.strings (Simplified Chinese)
+  MeishiApp
+*/
+
+// MARK: - Common
+"common.save" = "保存";
+"common.cancel" = "取消";
+"common.delete" = "删除";
+"common.edit" = "编辑";
+"common.done" = "完成";
+"common.close" = "关闭";
+"common.add" = "添加";
+"common.search" = "搜索";
+"common.confirm" = "确认";
+"common.yes" = "是";
+"common.no" = "否";
+"common.ok" = "确定";
+"common.retry" = "重试";
+"common.skip" = "跳过";
+"common.next" = "下一步";
+"common.back" = "返回";
+"common.select" = "选择";
+"common.loading" = "加载中...";
+"common.processing" = "处理中...";
+
+// MARK: - Person
+"person.name" = "姓名";
+"person.nameReading" = "拼音";
+"person.company" = "公司";
+"person.title" = "职务";
+"person.department" = "部门";
+"person.memo" = "备注";
+"person.list.title" = "名片";
+"person.list.empty" = "还没有名片";
+"person.list.empty.hint" = "点击右下角按钮添加名片";
+"person.detail.title" = "详情";
+"person.detail.cardHistory" = "名片记录";
+"person.detail.encounterHistory" = "会面记录";
+"person.detail.exportToContacts" = "保存到通讯录";
+"person.detail.findPhotos" = "查找此人的更多照片";
+"person.delete.confirm.title" = "确认删除";
+"person.delete.confirm.message" = "确定删除%@的所有信息吗？此操作无法撤销。";
+"person.sort.recent" = "最近添加";
+"person.sort.name" = "按姓名";
+"person.sort.company" = "按公司";
+
+// MARK: - Card
+"card.add" = "添加名片";
+"card.front" = "正面";
+"card.back" = "背面";
+"card.phone" = "电话";
+"card.email" = "邮箱";
+"card.address" = "地址";
+"card.website" = "网站";
+"card.acquiredAt" = "获取日期";
+"card.memo" = "备注";
+"card.delete.confirm.title" = "删除名片";
+"card.delete.confirm.message" = "确定删除这张名片吗？";
+
+// MARK: - Encounter
+"encounter.add" = "添加记录";
+"encounter.eventName" = "活动名称";
+"encounter.eventName.placeholder" = "例：2024年中国医学大会";
+"encounter.date" = "日期";
+"encounter.location" = "地点";
+"encounter.location.placeholder" = "例：国际会议中心";
+"encounter.memo" = "备注";
+"encounter.memo.placeholder" = "输入备注...";
+"encounter.whereDidYouMeet" = "会面信息";
+"encounter.delete.confirm.title" = "删除记录";
+"encounter.delete.confirm.message" = "确定删除这条记录吗？";
+
+// MARK: - Capture
+"capture.title" = "扫描名片";
+"capture.instruction" = "将名片放在取景框内";
+"capture.takePhoto" = "拍摄";
+"capture.retake" = "重新拍摄";
+"capture.usePhoto" = "使用此照片";
+"capture.captureBack" = "是否拍摄背面？";
+"capture.captureBack.yes" = "拍摄背面";
+"capture.captureBack.no" = "仅正面";
+"capture.fromLibrary" = "从相册选择";
+"capture.useCamera" = "拍照";
+"capture.selectSource" = "添加名片";
+"capture.selectSource.description" = "拍照或从相册选择";
+"capture.cameraUnavailable" = "此设备无法使用相机";
+"capture.cameraPermission.title" = "相机权限";
+"capture.cameraPermission.message" = "扫描名片需要使用相机，请在设置中允许访问。";
+"capture.photoPermission.title" = "照片权限";
+"capture.photoPermission.message" = "选择照片需要访问相册，请在设置中允许访问。";
+"capture.openSettings" = "打开设置";
+"capture.rotate" = "旋转";
+"capture.confirmOrientation" = "以此方向继续";
+"capture.orientationHint" = "如名片方向不正确，请点击旋转按钮";
+
+// MARK: - OCR
+"ocr.processing" = "正在识别文字...";
+"ocr.complete" = "识别完成";
+"ocr.failed" = "文字识别失败";
+"ocr.noTextFound" = "未识别到文字";
+"ocr.extracted" = "识别结果";
+"ocr.structuring" = "正在整理信息...";
+"ocr.aiStructuring" = "AI正在结构化信息...";
+
+// MARK: - Registration
+"registration.title" = "确认名片信息";
+"registration.instruction" = "请确认并修正识别结果";
+"registration.required" = "必填";
+"registration.optional" = "选填";
+"registration.nameOrCompanyRequired" = "姓名或公司至少填写一项";
+"registration.addPhoneNumber" = "添加电话号码";
+"registration.addEmail" = "添加邮箱地址";
+
+// MARK: - Duplicate Detection
+"duplicate.found.title" = "发现已有联系人";
+"duplicate.found.message" = "%@已经存在。";
+"duplicate.addToExisting" = "添加到此人名下";
+"duplicate.registerAsNew" = "注册为新联系人";
+"duplicate.selectInfo.title" = "选择保留的信息";
+"duplicate.selectInfo.message" = "使用哪个信息？两张名片都会被保留。";
+"duplicate.existingInfo" = "现有信息";
+"duplicate.newInfo" = "新名片信息";
+"duplicate.confirmAndSave" = "以此信息保存";
+
+// MARK: - Face Photo
+"face.add" = "添加头像";
+"face.change" = "更换头像";
+"face.remove" = "删除头像";
+"face.select" = "选择照片";
+"face.detecting" = "正在检测人脸...";
+"face.selectFace" = "请点击此人的面部";
+"face.noFaceDetected" = "未检测到人脸";
+"face.confirm" = "使用此头像吗？";
+"face.searchFromPhoto" = "从照片搜索";
+"face.useThisPhoto" = "使用此照片";
+
+// MARK: - Settings
+"settings.title" = "设置";
+"settings.general" = "通用";
+"settings.security" = "安全";
+"settings.biometricLock" = "生物识别锁";
+"settings.biometricLock.faceId" = "面容ID锁定";
+"settings.biometricLock.touchId" = "触控ID锁定";
+"settings.biometricLock.description" = "打开应用时要求验证身份";
+"settings.ocr" = "OCR设置";
+"settings.ocrLanguages" = "识别语言";
+"settings.ocrLanguages.description" = "根据名片语言设置优先级";
+"settings.ai" = "AI结构化";
+"settings.aiMode" = "AI结构化模式";
+"settings.aiMode.privacy" = "隐私优先";
+"settings.aiMode.privacy.description" = "仅发送文字，图片保留在设备上";
+"settings.aiMode.accuracy" = "精度优先";
+"settings.aiMode.accuracy.description" = "发送名片图片，7天内自动删除";
+"settings.backup" = "备份";
+"settings.backup.auto" = "自动备份";
+"settings.backup.manual" = "立即创建备份";
+"settings.backup.restore" = "从备份恢复";
+"settings.about" = "关于";
+"settings.version" = "版本";
+"settings.privacyPolicy" = "隐私政策";
+"settings.termsOfService" = "服务条款";
+
+// MARK: - Backup
+"backup.creating" = "正在创建备份...";
+"backup.created" = "备份已创建";
+"backup.failed" = "备份创建失败";
+"backup.restoring" = "正在恢复数据...";
+"backup.restored" = "数据已恢复";
+"backup.restoreFailed" = "数据恢复失败";
+"backup.selectFile" = "选择备份文件";
+"backup.confirm.title" = "确认恢复";
+"backup.confirm.message" = "当前数据将被覆盖，是否继续？";
+"backup.icloud" = "iCloud云盘";
+"backup.icloud.enabled" = "自动备份到iCloud云盘";
+
+// MARK: - Export
+"export.title" = "导出";
+"export.csv" = "CSV格式";
+"export.vcard" = "vCard格式";
+"export.all" = "全部数据";
+"export.filtered" = "筛选数据";
+"export.success" = "导出完成";
+"export.failed" = "导出失败";
+
+// MARK: - Tag
+"tag.add" = "添加标签";
+"tag.create" = "创建新标签";
+"tag.name" = "标签名称";
+"tag.name.placeholder" = "例：学术会议";
+"tag.filter" = "按标签筛选";
+"tag.all" = "显示全部";
+
+// MARK: - Error Messages
+"error.generic" = "发生错误";
+"error.network" = "网络错误";
+"error.apiKey" = "API密钥无效";
+"error.rateLimit" = "请求次数已达上限，请稍后重试";
+"error.timeout" = "请求超时";
+"error.saveData" = "数据保存失败";
+"error.loadData" = "数据加载失败";
+"error.deleteData" = "数据删除失败";
+"error.cameraUnavailable" = "相机不可用";
+"error.photoLibraryUnavailable" = "相册不可用";
+"error.contactSaveFailed" = "保存联系人失败";
+"error.contactAlreadyExists" = "同名联系人已存在";
+
+// MARK: - Authentication
+"auth.required" = "需要验证身份";
+"auth.reason" = "请验证身份以访问名片数据";
+"auth.failed" = "验证失败";
+"auth.cancelled" = "验证已取消";
+"auth.notAvailable" = "生物识别不可用";
+"auth.passcode" = "使用密码验证";
+"auth.unlock" = "解锁";
+
+// MARK: - Contact Export
+"contact.preview.title" = "联系人预览";
+"contact.preview.message" = "以下信息将添加到iPhone通讯录";
+"contact.save" = "保存到通讯录";
+"contact.saved" = "已保存到通讯录";
+"contact.permission.title" = "通讯录权限";
+"contact.permission.message" = "保存联系人需要访问通讯录，请在设置中允许访问。";
+
+// MARK: - AI Disclosure
+"ai.disclosure.title" = "关于AI结构化";
+"ai.disclosure.message" = "AI结构化功能会将名片信息发送到AI服务商的服务器。\n\n• 隐私优先模式：仅发送文字\n• 精度优先模式：同时发送图片\n\n发送的数据不会用于AI训练，7天内自动删除。";
+"ai.disclosure.understand" = "我已了解";
+"ai.disclosure.learnMore" = "了解更多";
+"ai.disclosure.what.title" = "什么是AI结构化？";
+"ai.disclosure.what.description" = "AI分析OCR文字或名片图片，自动提取姓名、公司和联系方式等信息。";
+"ai.disclosure.privacy.title" = "隐私保护";
+"ai.disclosure.privacy.description" = "数据不会用于AI训练。处理后7天内自动删除。";
+"ai.disclosure.modes.title" = "两种模式";
+"ai.disclosure.modes.description" = "隐私优先：仅发送文字。精度优先：发送图片以获得更准确的结构化。";
+"ai.disclosure.storage.title" = "数据存储";
+"ai.disclosure.storage.description" = "结构化后的数据仅保存在您的设备上，不会上传到任何云端。";
+
+// MARK: - Settings (Phase 2)
+"settings.aiStructuring" = "AI结构化";
+"settings.aiStructuring.footer" = "AI结构化使用LLM API。根据设置可能会发送文字或图片。";
+"settings.aiDisclosure" = "AI使用说明";
+
+// MARK: - Tag Management
+"tag.management" = "标签管理";
+"tag.edit" = "编辑标签";
+
+// MARK: - Backup (Phase 2)
+"backup.success" = "备份完成";
+"backup.noBackups" = "暂无备份";
+"backup.noBackups.description" = "尚未创建备份。点击「立即创建备份」开始备份。";
+
+// MARK: - Card Rescan
+"card.rescan" = "重新扫描";
+"card.rescanning" = "重新扫描中...";
+"card.rescan.success" = "重新扫描完成";
+"card.rescan.success.message" = "名片信息已更新。";
+
+// MARK: - Primary Card
+"card.primary" = "主名片";
+"card.setAsPrimary" = "设为主名片";
+"card.cannotDeletePrimary" = "无法删除主名片";
+
+// MARK: - Person Merge
+"person.merge.button" = "与其他人合并";
+"person.merge.selectTarget" = "选择合并对象";
+"person.merge.searchPlaceholder" = "按姓名或公司搜索";
+"person.merge.resultCount %lld" = "%lld个结果";
+"person.merge.noResults" = "未找到匹配的人";
+"person.merge.noResults.description" = "请尝试其他搜索条件";
+"person.merge.confirm.title" = "确认合并";
+"person.merge.source" = "合并来源";
+"person.merge.target" = "合并目标";
+"person.merge.selectName" = "选择显示名称";
+"person.merge.selectPhoto" = "选择头像";
+"person.merge.preview" = "合并后的信息";
+"person.merge.preview.cards %lld %lld %lld" = "名片：%lld张 + %lld张 = %lld张";
+"person.merge.preview.encounters %lld %lld %lld" = "记录：%lld条 + %lld条 = %lld条";
+"person.merge.warning" = "此操作无法撤销。";
+"person.merge.execute" = "合并";
+"person.merge.success" = "合并完成";
+
+// MARK: - LLM Settings
+"llm.connectionMode" = "连接方式";
+"llm.connectionMode.footer" = "选择AI结构化的连接方式。使用自己的API密钥时，请从相应的提供商获取。";
+"llm.mode.none" = "不使用AI结构化";
+"llm.mode.none.description" = "不自动结构化OCR文字";
+"llm.mode.akkurat" = "Akkurat订阅";
+"llm.mode.akkurat.description" = "使用Akkurat付费方案进行AI结构化";
+"llm.mode.selfApiKey" = "使用自己的API密钥";
+"llm.mode.selfApiKey.description" = "使用您自己的API密钥进行AI结构化";
+"llm.mode.notSupported" = "不支持";
+"llm.provider" = "AI提供商";
+"llm.provider.needsApiKey" = "所选提供商需要设置API密钥";
+"llm.provider.textOnly" = "仅支持文字（不支持图片）";
+"llm.apiKey.title %@" = "%@ API密钥";
+"llm.apiKey.notSet" = "API密钥未设置";
+"llm.apiKey.settings" = "API密钥设置";
+"llm.apiKey.description" = "API密钥安全存储在设备钥匙串中，不会发送到云端（API调用除外）。";
+"llm.apiKey.getKey" = "获取API密钥";
+"llm.apiKey.test" = "测试连接";
+"llm.apiKey.delete" = "删除API密钥";
+"llm.apiKey.invalid" = "API密钥无效";
+"llm.error.imageNotSupported" = "所选提供商不支持图片输入";

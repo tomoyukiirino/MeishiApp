@@ -1,0 +1,306 @@
+/*
+  Localizable.strings
+  MeishiApp
+
+  名刺管理アプリ - 日本語ローカライズファイル
+*/
+
+// MARK: - Common
+"common.save" = "保存";
+"common.cancel" = "キャンセル";
+"common.delete" = "削除";
+"common.edit" = "編集";
+"common.done" = "完了";
+"common.close" = "閉じる";
+"common.add" = "追加";
+"common.search" = "検索";
+"common.confirm" = "確認";
+"common.yes" = "はい";
+"common.no" = "いいえ";
+"common.ok" = "OK";
+"common.retry" = "再試行";
+"common.skip" = "スキップ";
+"common.next" = "次へ";
+"common.back" = "戻る";
+"common.select" = "選択";
+"common.loading" = "読み込み中...";
+"common.processing" = "処理中...";
+
+// MARK: - Person
+"person.name" = "氏名";
+"person.nameReading" = "ふりがな";
+"person.company" = "会社名";
+"person.title" = "役職";
+"person.department" = "部署";
+"person.memo" = "メモ";
+"person.list.title" = "名刺";
+"person.list.empty" = "名刺がまだありません";
+"person.list.empty.hint" = "右下のボタンから名刺を追加してください";
+"person.detail.title" = "詳細";
+"person.detail.cardHistory" = "名刺履歴";
+"person.detail.encounterHistory" = "撮影記録";
+"person.detail.exportToContacts" = "連絡先に保存";
+"person.detail.findPhotos" = "この方の写真をもっと見る";
+"person.delete.confirm.title" = "削除の確認";
+"person.delete.confirm.message" = "%@さんの情報をすべて削除しますか？この操作は取り消せません。";
+"person.sort.recent" = "最近登録順";
+"person.sort.name" = "名前順";
+"person.sort.company" = "会社名順";
+
+// MARK: - Card (BusinessCard)
+"card.add" = "名刺を追加";
+"card.front" = "表面";
+"card.back" = "裏面";
+"card.phone" = "電話番号";
+"card.email" = "メールアドレス";
+"card.address" = "住所";
+"card.website" = "Webサイト";
+"card.acquiredAt" = "取得日";
+"card.memo" = "メモ";
+"card.delete.confirm.title" = "名刺の削除";
+"card.delete.confirm.message" = "この名刺を削除しますか？";
+
+// MARK: - Encounter
+"encounter.add" = "記録を追加";
+"encounter.eventName" = "イベント名";
+"encounter.eventName.placeholder" = "例: 日本医学会総会2024";
+"encounter.date" = "撮影日時";
+"encounter.location" = "場所";
+"encounter.location.placeholder" = "例: 東京国際フォーラム";
+"encounter.memo" = "メモ";
+"encounter.memo.placeholder" = "メモを入力...";
+"encounter.whereDidYouMeet" = "撮影情報";
+"encounter.delete.confirm.title" = "記録の削除";
+"encounter.delete.confirm.message" = "この記録を削除しますか？";
+
+// MARK: - Capture
+"capture.title" = "名刺を撮影";
+"capture.instruction" = "名刺を枠内に収めてください";
+"capture.takePhoto" = "撮影";
+"capture.retake" = "撮り直す";
+"capture.usePhoto" = "この写真を使う";
+"capture.captureBack" = "裏面も撮影しますか？";
+"capture.captureBack.yes" = "裏面を撮影";
+"capture.captureBack.no" = "表面のみで完了";
+"capture.fromLibrary" = "ライブラリから選択";
+"capture.useCamera" = "カメラで撮影";
+"capture.selectSource" = "名刺の追加方法を選択";
+"capture.selectSource.description" = "カメラで撮影するか、写真ライブラリから選択してください";
+"capture.cameraUnavailable" = "このデバイスではカメラを使用できません";
+"capture.cameraPermission.title" = "カメラへのアクセス";
+"capture.cameraPermission.message" = "名刺を撮影するにはカメラへのアクセスが必要です。設定からアクセスを許可してください。";
+"capture.photoPermission.title" = "写真へのアクセス";
+"capture.photoPermission.message" = "写真を選択するには写真ライブラリへのアクセスが必要です。設定からアクセスを許可してください。";
+"capture.openSettings" = "設定を開く";
+"capture.rotate" = "回転";
+"capture.confirmOrientation" = "この向きで進む";
+"capture.orientationHint" = "名刺が正しい向きになっていない場合は、回転ボタンをタップしてください";
+
+// MARK: - OCR
+"ocr.processing" = "テキストを読み取り中...";
+"ocr.complete" = "読み取り完了";
+"ocr.failed" = "テキストの読み取りに失敗しました";
+"ocr.noTextFound" = "テキストが見つかりませんでした";
+"ocr.extracted" = "抽出されたテキスト";
+"ocr.structuring" = "情報を整理中...";
+"ocr.aiStructuring" = "AIが情報を構造化中...";
+
+// MARK: - Registration
+"registration.title" = "名刺情報の確認";
+"registration.instruction" = "読み取った情報を確認・修正してください";
+"registration.required" = "必須";
+"registration.optional" = "任意";
+"registration.nameOrCompanyRequired" = "氏名または会社名のいずれかは必須です";
+"registration.addPhoneNumber" = "電話番号を追加";
+"registration.addEmail" = "メールアドレスを追加";
+
+// MARK: - Duplicate Detection
+"duplicate.found.title" = "既存の方が見つかりました";
+"duplicate.found.message" = "%@さんは既に登録されています。";
+"duplicate.addToExisting" = "この方の名刺として追加";
+"duplicate.registerAsNew" = "別の方として新規登録";
+"duplicate.selectInfo.title" = "保持する情報を選択";
+"duplicate.selectInfo.message" = "どちらの情報で人物を登録しますか？名刺は両方追加されます。";
+"duplicate.existingInfo" = "既存の情報";
+"duplicate.newInfo" = "新しい名刺の情報";
+"duplicate.confirmAndSave" = "この情報で保存";
+
+// MARK: - Face Photo
+"face.add" = "顔写真を追加";
+"face.change" = "顔写真を変更";
+"face.remove" = "顔写真を削除";
+"face.select" = "写真を選択";
+"face.detecting" = "顔を検出中...";
+"face.selectFace" = "この方の顔をタップしてください";
+"face.noFaceDetected" = "顔が検出されませんでした";
+"face.confirm" = "この顔写真でよろしいですか？";
+"face.searchFromPhoto" = "写真から探す";
+"face.useThisPhoto" = "この写真を登録する";
+
+// MARK: - Settings
+"settings.title" = "設定";
+"settings.general" = "一般";
+"settings.security" = "セキュリティ";
+"settings.biometricLock" = "生体認証ロック";
+"settings.biometricLock.faceId" = "Face IDでロック";
+"settings.biometricLock.touchId" = "Touch IDでロック";
+"settings.biometricLock.description" = "アプリ起動時に認証を求めます";
+"settings.ocr" = "OCR設定";
+"settings.ocrLanguages" = "読み取り言語";
+"settings.ocrLanguages.description" = "名刺の言語に合わせて優先順位を設定";
+"settings.ai" = "AI構造化";
+"settings.aiMode" = "AI構造化モード";
+"settings.aiMode.privacy" = "プライバシー優先";
+"settings.aiMode.privacy.description" = "テキストのみ送信。画像は端末に残ります";
+"settings.aiMode.accuracy" = "精度優先";
+"settings.aiMode.accuracy.description" = "名刺画像を送信。7日で自動削除";
+"settings.backup" = "バックアップ";
+"settings.backup.auto" = "自動バックアップ";
+"settings.backup.manual" = "今すぐバックアップを作成";
+"settings.backup.restore" = "バックアップから復元";
+"settings.about" = "このアプリについて";
+"settings.version" = "バージョン";
+"settings.privacyPolicy" = "プライバシーポリシー";
+"settings.termsOfService" = "利用規約";
+
+// MARK: - Backup
+"backup.creating" = "バックアップを作成中...";
+"backup.created" = "バックアップを作成しました";
+"backup.failed" = "バックアップの作成に失敗しました";
+"backup.restoring" = "データを復元中...";
+"backup.restored" = "データを復元しました";
+"backup.restoreFailed" = "データの復元に失敗しました";
+"backup.selectFile" = "バックアップファイルを選択";
+"backup.confirm.title" = "復元の確認";
+"backup.confirm.message" = "現在のデータは上書きされます。復元しますか？";
+"backup.icloud" = "iCloud Drive";
+"backup.icloud.enabled" = "iCloud Driveに自動バックアップ";
+
+// MARK: - Export
+"export.title" = "エクスポート";
+"export.csv" = "CSV形式";
+"export.vcard" = "vCard形式";
+"export.all" = "すべてのデータ";
+"export.filtered" = "絞り込んだデータ";
+"export.success" = "エクスポートが完了しました";
+"export.failed" = "エクスポートに失敗しました";
+
+// MARK: - Tag
+"tag.add" = "タグを追加";
+"tag.create" = "新しいタグを作成";
+"tag.name" = "タグ名";
+"tag.name.placeholder" = "例: 学会関係";
+"tag.filter" = "タグで絞り込み";
+"tag.all" = "すべて表示";
+
+// MARK: - Error Messages
+"error.generic" = "エラーが発生しました";
+"error.network" = "ネットワークエラーが発生しました";
+"error.apiKey" = "APIキーが無効です";
+"error.rateLimit" = "リクエスト上限に達しました。しばらくお待ちください";
+"error.timeout" = "タイムアウトしました";
+"error.saveData" = "データの保存に失敗しました";
+"error.loadData" = "データの読み込みに失敗しました";
+"error.deleteData" = "データの削除に失敗しました";
+"error.cameraUnavailable" = "カメラが利用できません";
+"error.photoLibraryUnavailable" = "写真ライブラリが利用できません";
+"error.contactSaveFailed" = "連絡先の保存に失敗しました";
+"error.contactAlreadyExists" = "同名の連絡先が既に存在します";
+
+// MARK: - Authentication
+"auth.required" = "認証が必要です";
+"auth.reason" = "名刺データにアクセスするには認証してください";
+"auth.failed" = "認証に失敗しました";
+"auth.cancelled" = "認証がキャンセルされました";
+"auth.notAvailable" = "生体認証が利用できません";
+"auth.passcode" = "パスコードで認証";
+"auth.unlock" = "ロック解除";
+
+// MARK: - Contact Export
+"contact.preview.title" = "連絡先のプレビュー";
+"contact.preview.message" = "以下の内容でiPhoneの連絡先に追加します";
+"contact.save" = "連絡先に保存";
+"contact.saved" = "連絡先に保存しました";
+"contact.permission.title" = "連絡先へのアクセス";
+"contact.permission.message" = "連絡先に保存するにはアクセス許可が必要です。設定からアクセスを許可してください。";
+
+// MARK: - AI Disclosure
+"ai.disclosure.title" = "AI構造化について";
+"ai.disclosure.message" = "AI構造化機能を使用すると、名刺の情報がAnthropic社のサーバーに送信されます。\n\n• プライバシー優先モード: テキストのみ送信\n• 精度優先モード: 画像も送信\n\n送信されたデータはAIの学習には使用されず、7日以内に自動削除されます。";
+"ai.disclosure.understand" = "理解しました";
+"ai.disclosure.learnMore" = "詳しく見る";
+"ai.disclosure.what.title" = "AI構造化とは";
+"ai.disclosure.what.description" = "名刺のOCRテキストや画像をAIが解析し、氏名・会社名・連絡先などを自動で構造化します。";
+"ai.disclosure.privacy.title" = "プライバシーの保護";
+"ai.disclosure.privacy.description" = "送信されたデータはAIの学習には使用されません。処理後、7日以内に自動削除されます。";
+"ai.disclosure.modes.title" = "2つのモード";
+"ai.disclosure.modes.description" = "プライバシー優先: テキストのみ送信。精度優先: 画像も送信し、より正確な構造化が可能です。";
+"ai.disclosure.storage.title" = "データの保存";
+"ai.disclosure.storage.description" = "構造化後のデータはお使いのデバイスにのみ保存されます。クラウドには一切保存されません。";
+
+// MARK: - Settings (Phase 2 additions)
+"settings.aiStructuring" = "AI構造化";
+"settings.aiStructuring.footer" = "AI構造化はClaude APIを使用します。設定に応じてテキストまたは画像がサーバーに送信されます。";
+"settings.aiDisclosure" = "AI利用について";
+
+// MARK: - Tag Management
+"tag.management" = "タグ管理";
+"tag.edit" = "タグを編集";
+
+// MARK: - Backup (Phase 2 additions)
+"backup.success" = "バックアップが完了しました";
+"backup.noBackups" = "バックアップがありません";
+"backup.noBackups.description" = "まだバックアップが作成されていません。「今すぐバックアップを作成」をタップしてバックアップを作成してください。";
+
+// MARK: - Card Rescan
+"card.rescan" = "再スキャン";
+"card.rescanning" = "再スキャン中...";
+"card.rescan.success" = "再スキャン完了";
+"card.rescan.success.message" = "名刺情報が更新されました。";
+
+// MARK: - Primary Card
+"card.primary" = "メイン";
+"card.setAsPrimary" = "メインに設定";
+"card.cannotDeletePrimary" = "メイン名刺は削除できません";
+
+// MARK: - Person Merge
+"person.merge.button" = "この人を別の人と統合する";
+"person.merge.selectTarget" = "統合先の人を選択";
+"person.merge.searchPlaceholder" = "名前・会社名で検索";
+"person.merge.resultCount %lld" = "%lld件の候補";
+"person.merge.noResults" = "該当する人が見つかりません";
+"person.merge.noResults.description" = "検索条件を変更してください";
+"person.merge.confirm.title" = "統合の確認";
+"person.merge.source" = "統合元";
+"person.merge.target" = "統合先";
+"person.merge.selectName" = "表示名を選択";
+"person.merge.selectPhoto" = "顔写真を選択";
+"person.merge.preview" = "統合後の情報";
+"person.merge.preview.cards %lld %lld %lld" = "名刺 %lld枚 + %lld枚 = %lld枚";
+"person.merge.preview.encounters %lld %lld %lld" = "記録 %lld件 + %lld件 = %lld件";
+"person.merge.warning" = "この操作は取り消せません。";
+"person.merge.execute" = "統合する";
+"person.merge.success" = "統合が完了しました";
+
+// MARK: - LLM Settings
+"llm.connectionMode" = "接続モード";
+"llm.connectionMode.footer" = "AI構造化の接続方法を選択してください。自分のAPIキーを使用する場合は、各プロバイダーからAPIキーを取得してください。";
+"llm.mode.none" = "AI構造化を使用しない";
+"llm.mode.none.description" = "OCRテキストから自動的に構造化を行いません";
+"llm.mode.akkurat" = "Akkuratサブスクリプション";
+"llm.mode.akkurat.description" = "Akkuratの有料プランでAI構造化を利用";
+"llm.mode.selfApiKey" = "自分のAPIキーを使用";
+"llm.mode.selfApiKey.description" = "お持ちのAPIキーでAI構造化を利用";
+"llm.mode.notSupported" = "非対応";
+"llm.provider" = "AIプロバイダー";
+"llm.provider.needsApiKey" = "選択中のプロバイダーにはAPIキーの設定が必要です";
+"llm.provider.textOnly" = "テキストのみ対応（画像非対応）";
+"llm.apiKey.title %@" = "%@ APIキー";
+"llm.apiKey.notSet" = "APIキー未設定";
+"llm.apiKey.settings" = "APIキー設定";
+"llm.apiKey.description" = "APIキーはデバイスのKeychainに安全に保存されます。クラウドには送信されません（API呼び出し時を除く）。";
+"llm.apiKey.getKey" = "APIキーを取得";
+"llm.apiKey.test" = "接続テスト";
+"llm.apiKey.delete" = "APIキーを削除";
+"llm.apiKey.invalid" = "APIキーが無効です";
+"llm.error.imageNotSupported" = "選択中のプロバイダーは画像入力に対応していません";
