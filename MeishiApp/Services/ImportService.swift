@@ -397,40 +397,31 @@ final class ImportService {
     ) -> ImportResult {
         var importedCount = 0
         var duplicateCount = 0
-        var skippedCount = 0
-        var errors: [ImportError] = []
+        let errors: [ImportError] = []
 
         // 既存のPersonを取得
         let descriptor = FetchDescriptor<Person>()
         let existingPersons = (try? modelContext.fetch(descriptor)) ?? []
 
-        for (index, entry) in entries.enumerated() {
-            do {
-                // 重複チェック
-                if let existingPerson = findDuplicate(entry: entry, in: existingPersons) {
-                    duplicateCount += 1
+        for entry in entries {
+            // 重複チェック
+            if let existingPerson = findDuplicate(entry: entry, in: existingPersons) {
+                duplicateCount += 1
 
-                    switch duplicateHandling {
-                    case .skip:
-                        continue
-                    case .addCard:
-                        // 既存Personに名刺を追加
-                        let card = createBusinessCard(from: entry)
-                        existingPerson.businessCards.append(card)
-                        importedCount += 1
-                    }
-                } else {
-                    // 新規Person作成
-                    let person = createPerson(from: entry)
-                    modelContext.insert(person)
+                switch duplicateHandling {
+                case .skip:
+                    continue
+                case .addCard:
+                    // 既存Personに名刺を追加
+                    let card = createBusinessCard(from: entry)
+                    existingPerson.businessCards.append(card)
                     importedCount += 1
                 }
-            } catch {
-                errors.append(ImportError(
-                    lineNumber: index + 2, // ヘッダー行 + 1-indexed
-                    name: entry.name.isEmpty ? entry.company : entry.name,
-                    reason: error.localizedDescription
-                ))
+            } else {
+                // 新規Person作成
+                let person = createPerson(from: entry)
+                modelContext.insert(person)
+                importedCount += 1
             }
         }
 
@@ -440,7 +431,7 @@ final class ImportService {
             totalCount: entries.count,
             importedCount: importedCount,
             duplicateCount: duplicateCount,
-            skippedCount: skippedCount,
+            skippedCount: duplicateHandling == .skip ? duplicateCount : 0,
             errors: errors
         )
     }
@@ -451,7 +442,8 @@ final class ImportService {
             name: entry.name,
             nameReading: entry.nameReading,
             primaryCompany: entry.company,
-            primaryTitle: entry.title
+            primaryTitle: entry.title,
+            memo: entry.memo
         )
 
         let card = createBusinessCard(from: entry)
@@ -462,17 +454,17 @@ final class ImportService {
 
     /// ImportEntryからBusinessCardを作成
     private func createBusinessCard(from entry: ImportEntry) -> BusinessCard {
-        let card = BusinessCard()
-        card.company = entry.company
-        card.department = entry.department
-        card.title = entry.title
-        card.phoneNumbers = entry.phoneNumbers
-        card.emails = entry.emails
-        card.address = entry.address
-        card.websites = entry.websites
-        card.memo = entry.memo
-        card.acquiredAt = Date()
-        return card
+        BusinessCard(
+            frontImagePath: "",
+            company: entry.company,
+            department: entry.department,
+            title: entry.title,
+            phoneNumbers: entry.phoneNumbers,
+            emails: entry.emails,
+            address: entry.address,
+            website: entry.websites.first,
+            acquiredAt: Date()
+        )
     }
 }
 

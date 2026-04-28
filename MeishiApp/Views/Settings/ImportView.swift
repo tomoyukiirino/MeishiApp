@@ -364,7 +364,7 @@ struct ImportView: View {
     }
 
     private func executeImport() {
-        guard let preview = preview, let format = selectedFormat else { return }
+        guard let preview = preview, selectedFormat != nil else { return }
 
         importPhase = .importing
         isImporting = true
@@ -425,7 +425,8 @@ struct ImportView: View {
             name: entry.name,
             nameReading: entry.nameReading,
             primaryCompany: entry.company,
-            primaryTitle: entry.title
+            primaryTitle: entry.title,
+            memo: entry.memo
         )
 
         let card = createBusinessCard(from: entry)
@@ -435,17 +436,17 @@ struct ImportView: View {
     }
 
     private func createBusinessCard(from entry: ImportEntry) -> BusinessCard {
-        let card = BusinessCard()
-        card.company = entry.company
-        card.department = entry.department
-        card.title = entry.title
-        card.phoneNumbers = entry.phoneNumbers
-        card.emails = entry.emails
-        card.address = entry.address
-        card.websites = entry.websites
-        card.memo = entry.memo
-        card.acquiredAt = Date()
-        return card
+        BusinessCard(
+            frontImagePath: "",
+            company: entry.company,
+            department: entry.department,
+            title: entry.title,
+            phoneNumbers: entry.phoneNumbers,
+            emails: entry.emails,
+            address: entry.address,
+            website: entry.websites.first,
+            acquiredAt: Date()
+        )
     }
 }
 

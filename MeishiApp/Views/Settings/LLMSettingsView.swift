@@ -352,7 +352,7 @@ struct LLMAPIKeyInputView: View {
                 case .networkError:
                     testResult = .failure(String(localized: "error.network"))
                 default:
-                    testResult = .failure(error.localizedDescription ?? String(localized: "error.generic"))
+                    testResult = .failure(error.localizedDescription)
                 }
             }
         } catch {

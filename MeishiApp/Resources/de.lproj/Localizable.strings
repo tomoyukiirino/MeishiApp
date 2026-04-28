@@ -250,7 +250,7 @@
 // MARK: - Backup (Phase 2 additions)
 "backup.success" = "Sicherung abgeschlossen";
 "backup.noBackups" = "Keine Sicherungen vorhanden";
-"backup.noBackups.description" = "Es wurden noch keine Sicherungen erstellt. Tippen Sie auf „Jetzt sichern", um eine Sicherung zu erstellen.";
+"backup.noBackups.description" = "Es wurden noch keine Sicherungen erstellt. Tippen Sie auf „Jetzt sichern“, um eine Sicherung zu erstellen.";
 
 // MARK: - Card Rescan
 "card.rescan" = "Erneut scannen";

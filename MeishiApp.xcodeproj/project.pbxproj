@@ -35,6 +35,17 @@
 		100000050 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 200000050 /* Localizable.strings */; };
 		100000051 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 200000051 /* Assets.xcassets */; };
 		100000060 /* ZIPFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = 300000001 /* ZIPFoundation */; };
+		100000070 /* LLMServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000070 /* LLMServiceProtocol.swift */; };
+		100000071 /* LLMServiceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000071 /* LLMServiceFactory.swift */; };
+		100000072 /* LLMSettingsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000072 /* LLMSettingsManager.swift */; };
+		100000073 /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000073 /* KeychainService.swift */; };
+		100000074 /* ClaudeAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000074 /* ClaudeAdapter.swift */; };
+		100000075 /* ChatGPTAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000075 /* ChatGPTAdapter.swift */; };
+		100000076 /* GeminiAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000076 /* GeminiAdapter.swift */; };
+		100000077 /* PerplexityAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000077 /* PerplexityAdapter.swift */; };
+		100000078 /* ImportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000078 /* ImportService.swift */; };
+		100000079 /* ImportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000079 /* ImportView.swift */; };
+		100000080 /* LLMSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000080 /* LLMSettingsView.swift */; };
 		9EE55F292F765CAC00F701CA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9EE55F1D2F765CAC00F701CA /* Localizable.strings */; };
 		9EE55F2A2F765CAC00F701CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9EE55F1B2F765CAC00F701CA /* InfoPlist.strings */; };
 		9EE55F2B2F765CAC00F701CA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9EE55F182F765CAC00F701CA /* Localizable.strings */; };
@@ -51,6 +62,8 @@
 		9EF739892F7660B1005022DE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9EF739732F7660B1005022DE /* Localizable.strings */; };
 		9EF7398A2F7660B1005022DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9EF739802F7660B1005022DE /* InfoPlist.strings */; };
 		9EF7398B2F7660B1005022DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9EF739712F7660B1005022DE /* InfoPlist.strings */; };
+		9EAA00060000000000000001 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9EAA00030000000000000001 /* InfoPlist.strings */; };
+		9EAA00070000000000000001 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9EAA00040000000000000001 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +95,17 @@
 		200000050 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		200000051 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		200000052 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		200000070 /* LLMServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLMServiceProtocol.swift; sourceTree = "<group>"; };
+		200000071 /* LLMServiceFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLMServiceFactory.swift; sourceTree = "<group>"; };
+		200000072 /* LLMSettingsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLMSettingsManager.swift; sourceTree = "<group>"; };
+		200000073 /* KeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
+		200000074 /* ClaudeAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaudeAdapter.swift; sourceTree = "<group>"; };
+		200000075 /* ChatGPTAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPTAdapter.swift; sourceTree = "<group>"; };
+		200000076 /* GeminiAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeminiAdapter.swift; sourceTree = "<group>"; };
+		200000077 /* PerplexityAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerplexityAdapter.swift; sourceTree = "<group>"; };
+		200000078 /* ImportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportService.swift; sourceTree = "<group>"; };
+		200000079 /* ImportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportView.swift; sourceTree = "<group>"; };
+		200000080 /* LLMSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLMSettingsView.swift; sourceTree = "<group>"; };
 		400000001 /* MeishiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeishiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EE55F152F765CAC00F701CA /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = InfoPlist.strings; sourceTree = "<group>"; };
 		9EE55F172F765CAC00F701CA /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = Localizable.strings; sourceTree = "<group>"; };
@@ -99,6 +123,8 @@
 		9EF7397C2F7660B1005022DE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = Localizable.strings; sourceTree = "<group>"; };
 		9EF7397F2F7660B1005022DE /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = InfoPlist.strings; sourceTree = "<group>"; };
 		9EF739812F7660B1005022DE /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = Localizable.strings; sourceTree = "<group>"; };
+		9EAA00010000000000000001 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = InfoPlist.strings; sourceTree = "<group>"; };
+		9EAA00020000000000000001 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +192,8 @@
 				200000026 /* BackupService.swift */,
 				200000027 /* ClaudeAPIService.swift */,
 				200000028 /* PersonMergeService.swift */,
+				200000078 /* ImportService.swift */,
+				600000020 /* LLM */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -204,6 +232,7 @@
 				9EE55F1E2F765CAC00F701CA /* de.lproj */,
 				9EE55F232F765CAC00F701CA /* es.lproj */,
 				9EE55F282F765CAC00F701CA /* fr.lproj */,
+				9EAA00050000000000000001 /* it.lproj */,
 				200000050 /* Localizable.strings */,
 				200000051 /* Assets.xcassets */,
 				200000052 /* Info.plist */,
@@ -264,8 +293,33 @@
 			isa = PBXGroup;
 			children = (
 				200000046 /* SettingsView.swift */,
+				200000079 /* ImportView.swift */,
+				200000080 /* LLMSettingsView.swift */,
 			);
 			path = Settings;
+			sourceTree = "<group>";
+		};
+		600000020 /* LLM */ = {
+			isa = PBXGroup;
+			children = (
+				200000070 /* LLMServiceProtocol.swift */,
+				200000071 /* LLMServiceFactory.swift */,
+				200000072 /* LLMSettingsManager.swift */,
+				200000073 /* KeychainService.swift */,
+				600000021 /* Adapters */,
+			);
+			path = LLM;
+			sourceTree = "<group>";
+		};
+		600000021 /* Adapters */ = {
+			isa = PBXGroup;
+			children = (
+				200000074 /* ClaudeAdapter.swift */,
+				200000075 /* ChatGPTAdapter.swift */,
+				200000076 /* GeminiAdapter.swift */,
+				200000077 /* PerplexityAdapter.swift */,
+			);
+			path = Adapters;
 			sourceTree = "<group>";
 		};
 		600000099 /* Products */ = {
@@ -348,6 +402,15 @@
 			path = "zh-Hant.lproj";
 			sourceTree = "<group>";
 		};
+		9EAA00050000000000000001 /* it.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				9EAA00030000000000000001 /* InfoPlist.strings */,
+				9EAA00040000000000000001 /* Localizable.strings */,
+			);
+			path = it.lproj;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -379,7 +442,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 2630;
+				LastUpgradeCheck = 2640;
 				TargetAttributes = {
 					700000001 = {
 						CreatedOnToolsVersion = 15.0;
@@ -439,6 +502,8 @@
 				9EE55F302F765CAC00F701CA /* Localizable.strings in Resources */,
 				100000050 /* Localizable.strings in Resources */,
 				100000051 /* Assets.xcassets in Resources */,
+				9EAA00060000000000000001 /* InfoPlist.strings in Resources */,
+				9EAA00070000000000000001 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +539,17 @@
 				100000044 /* FacePhotoView.swift in Sources */,
 				100000045 /* TagManagementView.swift in Sources */,
 				100000046 /* SettingsView.swift in Sources */,
+				100000070 /* LLMServiceProtocol.swift in Sources */,
+				100000071 /* LLMServiceFactory.swift in Sources */,
+				100000072 /* LLMSettingsManager.swift in Sources */,
+				100000073 /* KeychainService.swift in Sources */,
+				100000074 /* ClaudeAdapter.swift in Sources */,
+				100000075 /* ChatGPTAdapter.swift in Sources */,
+				100000076 /* GeminiAdapter.swift in Sources */,
+				100000077 /* PerplexityAdapter.swift in Sources */,
+				100000078 /* ImportService.swift in Sources */,
+				100000079 /* ImportView.swift in Sources */,
+				100000080 /* LLMSettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -608,6 +684,22 @@
 			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
+		9EAA00030000000000000001 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EAA00010000000000000001 /* it */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9EAA00040000000000000001 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EAA00020000000000000001 /* it */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -647,6 +739,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = RWX8C2WN2W;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -712,6 +805,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = RWX8C2WN2W;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -741,7 +835,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = MeishiApp/Resources/Info.plist;
@@ -757,7 +850,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jp.akkurat.MeishiApp;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.akkurat.PrivateCards;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -774,7 +867,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = MeishiApp/Resources/Info.plist;
@@ -790,7 +882,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jp.akkurat.MeishiApp;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.akkurat.PrivateCards;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
